@@ -21,7 +21,7 @@ function Header() {
         setState(i)
     }
         const headercontent = [
-        { label: 'Home', routepath: '/yesrealtechnologies', submenu:
+        { label: 'Home', routepath: '/yesrealtechnologies/', submenu:
         [
             { label: 'Overview', routepath: '/yesrealtechnologies/about' },
             { label: "Milestones", routepath: '/yesrealtechnologies/about/projects' },
