@@ -21,33 +21,33 @@ function Header() {
         setState(i)
     }
         const headercontent = [
-        { label: 'Home', routepath: '/', submenu:
+        { label: 'Home', routepath: '/yesreal', submenu:
         [
-            { label: 'Overview', routepath: '/about' },
-            { label: "Milestones", routepath: 'about/projects' },
-            { label: 'Vision & Mission', routepath: 'about/vision' },
-            { label: 'Board of Directors', routepath: 'about/directors' },
-            { label: 'Management Team', routepath: "about/management" }
+            { label: 'Overview', routepath: 'yesreal/about' },
+            { label: "Milestones", routepath: 'yesreal/about/projects' },
+            { label: 'Vision & Mission', routepath: 'yesreal/about/vision' },
+            { label: 'Board of Directors', routepath: 'yesreal/about/directors' },
+            { label: 'Management Team', routepath: "yesreal/about/management" }
         ] },
         {
-            label: "About", routepath: '/about'
+            label: "About", routepath: 'yesreal/about'
             , submenu: [
-            { label: "Overview", routepath: "/business" },
-            { label: "Recruitment", routepath: "/business/recruitment" },
-            { label: "Product development", routepath: "/business/productdevelopment" },
-                { label: "Backend Verification", routepath: "/business/backendverification" },
-                { label: "Digital Marketing", routepath: "/business/digitalmarketing" },
-            { label: "Saas", routepath: "/business/sass" },
+            { label: "Overview", routepath: "yesreal/business" },
+            { label: "Recruitment", routepath: "yesreal/business/recruitment" },
+            { label: "Product development", routepath: "yesreal/business/productdevelopment" },
+                { label: "Backend Verification", routepath: "yesreal/business/backendverification" },
+                { label: "Digital Marketing", routepath: "yesreal/business/digitalmarketing" },
+            { label: "Saas", routepath: "yesreal/business/sass" },
         ]
             },
         
-        { label: "Business", routepath: 'business' },
+        { label: "Business", routepath: 'yesreal/business' },
         
-        { label: "Careers", routepath: 'careers' },
+        { label: "Careers", routepath: 'yesreal/careers' },
      
-        { label: "Investor Relations", routepath: 'investor' },
+        { label: "Investor Relations", routepath: 'yesreal/investor' },
 
-        { label: "Contact", routepath: 'contact' },
+        { label: "Contact", routepath: 'yesreal/contact' },
     ]
 
 
