@@ -10,7 +10,7 @@ function Investor() {
           <h1 style={{ fontFamily: "Quicksand" }}>Hello !<br/> We are in search of investees.</h1>
           <span>&nbsp;If you can invest please contact us . Make a smart move and <strong>JOIN US .</strong></span>
           <br /><br />
-          <NavLink to='/contact'><button className="btn btn-warning">Contact us</button></NavLink>
+          <NavLink to='contact'><button className="btn btn-warning">Contact us</button></NavLink>
           
         </div>
         <div className="col" style={{padding:"0rem",margin: "0rem"}}><br/><br/>

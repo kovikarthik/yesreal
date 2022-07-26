@@ -112,7 +112,7 @@ function Homepage() {
                 alt="Third slide"
               />
               <Carousel.Caption>
-                <NavLink className="navbarbtn1" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }} to="/about" ><h2>ABOUT YRT</h2></NavLink>
+                <NavLink className="navbarbtn1" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }} to="about" ><h2>ABOUT YRT</h2></NavLink>
                 <h5>
                   You get recessions, you have stock market declines. If you don't understand that's going to happen, then you're not ready, you won't do well in the markets.
                 </h5>
@@ -127,7 +127,7 @@ function Homepage() {
                 alt="First slide"
               />
               <Carousel.Caption>
-                <NavLink className="navbarbtn1" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }} to="/careers" ><h2>CAREER</h2></NavLink>
+                <NavLink className="navbarbtn1" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }} to="careers" ><h2>CAREER</h2></NavLink>
                 <h5>With a good perspective on history, we can have a better understanding of the past and present, and thus a clear vision of the future</h5>
               </Carousel.Caption>
             </Carousel.Item>
@@ -141,7 +141,7 @@ function Homepage() {
               />
               <Carousel.Caption>
 
-                <NavLink className="navbarbtn1" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }} to="/business" > <h2>BUSSINESS</h2></NavLink>
+                <NavLink className="navbarbtn1" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }} to="business" > <h2>BUSSINESS</h2></NavLink>
 
                 <h5>Ahead of competition in an ever-changing volatile market, the company’s recent focus has been to develop new things</h5>
               </Carousel.Caption>
@@ -156,7 +156,7 @@ function Homepage() {
               />
               <Carousel.Caption>
 
-                <NavLink className="navbarbtn1" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }} to="/investor" > <h2 >INVESTOR RELATIONSHIP</h2></NavLink>
+                <NavLink className="navbarbtn1" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }} to="investor" > <h2 >INVESTOR RELATIONSHIP</h2></NavLink>
 
                 <h5>
                   The most important quality for an investor is temperament, not intellect that YRT provides
@@ -205,7 +205,7 @@ function Homepage() {
               {/* </Carousel.Caption> */}
             </Carousel.Item>
           </Carousel><br></br><br></br>
-          <NavLink className='btn btn-info' style={{ boxShadow: 'none' }} to="/business" >All Bussiness Activities</NavLink>
+          <NavLink className='btn btn-info' style={{ boxShadow: 'none' }} to="business" >All Bussiness Activities</NavLink>
         </div>
       </div>
       {/* <div style={{backgroundImage:`url(${testimonial})`,backgroundRepeat: 'no-repeat',backgroundSize:'100% 100%',alignItems:'center',justifyContent:'center'}}> */}
