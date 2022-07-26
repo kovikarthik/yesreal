@@ -28,7 +28,7 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route exact path='/yesrealtechnologies' element={<Mainpage />}>        
+          <Route exact path='/yesrealtechnologies/' element={<Mainpage />}>        
             <Route index element={<Homepage />}></Route>
             <Route exact path='about' element={<About />}>
               <Route index element={<AboutOverview />}></Route>
