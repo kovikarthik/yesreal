@@ -61,7 +61,7 @@ div {
 }
 
 #onhover :hover {
-  background: url('../assets/aboutus.png');
+  /* background: url('../assets/aboutus.png'); */
   position: relative;
   cursor: pointer;
   /* width:50rem ; */
