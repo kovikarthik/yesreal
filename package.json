@@ -1,7 +1,7 @@
 {
   "name": "yesrealtechnologies",
   "version": "0.1.0",
-  "homepage": "https://kovikarthik.github.io/yesreal",
+  "homepage": "https://kovikarthik.github.io/yesrealtechnologies",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",

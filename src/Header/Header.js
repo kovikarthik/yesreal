@@ -21,33 +21,33 @@ function Header() {
         setState(i)
     }
         const headercontent = [
-        { label: 'Home', routepath: '/yesreal', submenu:
+        { label: 'Home', routepath: '/yesrealtechnologies', submenu:
         [
-            { label: 'Overview', routepath: 'yesreal/about' },
-            { label: "Milestones", routepath: 'yesreal/about/projects' },
-            { label: 'Vision & Mission', routepath: 'yesreal/about/vision' },
-            { label: 'Board of Directors', routepath: 'yesreal/about/directors' },
-            { label: 'Management Team', routepath: "yesreal/about/management" }
+            { label: 'Overview', routepath: 'yesrealtechnologies/about' },
+            { label: "Milestones", routepath: 'yesrealtechnologies/about/projects' },
+            { label: 'Vision & Mission', routepath: 'yesrealtechnologies/about/vision' },
+            { label: 'Board of Directors', routepath: 'yesrealtechnologies/about/directors' },
+            { label: 'Management Team', routepath: "yesrealtechnologies/about/management" }
         ] },
         {
-            label: "About", routepath: 'yesreal/about'
+            label: "About", routepath: 'yesrealtechnologies/about'
             , submenu: [
-            { label: "Overview", routepath: "yesreal/business" },
-            { label: "Recruitment", routepath: "yesreal/business/recruitment" },
-            { label: "Product development", routepath: "yesreal/business/productdevelopment" },
-                { label: "Backend Verification", routepath: "yesreal/business/backendverification" },
-                { label: "Digital Marketing", routepath: "yesreal/business/digitalmarketing" },
-            { label: "Saas", routepath: "yesreal/business/sass" },
+            { label: "Overview", routepath: "yesrealtechnologies/business" },
+            { label: "Recruitment", routepath: "yesrealtechnologies/business/recruitment" },
+            { label: "Product development", routepath: "yesrealtechnologies/business/productdevelopment" },
+                { label: "Backend Verification", routepath: "yesrealtechnologies/business/backendverification" },
+                { label: "Digital Marketing", routepath: "yesrealtechnologies/business/digitalmarketing" },
+            { label: "Saas", routepath: "yesrealtechnologies/business/sass" },
         ]
             },
         
-        { label: "Business", routepath: 'yesreal/business' },
+        { label: "Business", routepath: 'yesrealtechnologies/business' },
         
-        { label: "Careers", routepath: 'yesreal/careers' },
+        { label: "Careers", routepath: 'yesrealtechnologies/careers' },
      
-        { label: "Investor Relations", routepath: 'yesreal/investor' },
+        { label: "Investor Relations", routepath: 'yesrealtechnologies/investor' },
 
-        { label: "Contact", routepath: 'yesreal/contact' },
+        { label: "Contact", routepath: 'yesrealtechnologies/contact' },
     ]
 
 
