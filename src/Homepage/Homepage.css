@@ -1,0 +1,66 @@
+/* .inverstors{
+    position:relative;
+    width: 100%;
+    height:50vh;
+}
+.investors .slider{
+    position:absolute;
+    top: 0;
+    left:0;
+    width:500;
+    height: 100%;
+    float:left;
+}
+
+.investors .slider .slide{
+    position: relative;
+    width:20%;
+    height:100%;
+    float: left;
+}
+.investors .slider .slide .caption{
+   position: absolute;
+   bottom:60px;
+   left:60px;
+    right: 60px;
+    padding:30px;
+    background: rgba(0,0,0,0.5);
+    box-sizing:border-box;
+}
+.investors .slider .slide .caption h4{
+   margin:0 0 20px;
+   padding:0;
+   color:#fff;
+   font-size:48px;
+}
+.investors .slider .slide .caption h4{
+   margin:0;
+   padding:0;
+   color:#fff;
+   font-size:18px;
+}*/
+
+/* .investors .slider .slide{
+    position: relative;
+    width:20%;
+    height:100%;
+    float: left;
+} */ 
+
+.navbarbtn1{
+    text-decoration:none;
+    color: rgba(0,109,184,255);
+    font-weight: bold;
+    padding: 0.5vw;
+}
+
+.navbarbtn1:hover{
+    text-decoration: none;
+    color: rgba(0,109,184,255);
+    font-weight: 900;
+    transition :all 0.3s ease-in-out
+}
+
+
+
+

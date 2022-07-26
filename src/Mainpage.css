@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.selected {
+    
+    font-weight:800;
+    color: black;
+    /* #0747a6 */
+}
+
+.notselected:hover{
+    background-color: whitesmoke !important;
+}
+
+.notselected {
+    background-color: "red";
+    padding: '1rem';
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
