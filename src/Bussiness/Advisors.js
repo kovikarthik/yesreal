@@ -5,14 +5,14 @@ import dinesh from '../assets/dineshsir.jpg'
 import '../About/About.css'
 
 export default function Advisors() {
-  return (
-   <>
+    return (
+        <>
 
-   {/* <div className='row' style={{margin:'0',padding:'0'}}>
+            {/* <div className='row' style={{margin:'0',padding:'0'}}>
       <div className='col card ' style={{width:'auto',height:'auto'}}>
         <img src={dineshsir} />
       </div>
-      <div className='col' style={{borderLeft:'4px solid #02399dff',margin:'0',padding:'0',marginLeft:'20%'}}> </div>
+      <div className='col' style={{borderLeft:'4px solid rgba(0,109,184,255)ff',margin:'0',padding:'0',marginLeft:'20%'}}> </div>
       <div className='col card'>
         
       </div><br></br>
@@ -21,19 +21,19 @@ export default function Advisors() {
       <div className='col card ' style={{width:'auto',height:'auto'}}>
         <img src={dineshsir} />
       </div>
-      <div className='col' style={{borderLeft:'4px solid #02399dff',margin:'0',padding:'0',marginLeft:'20%'}}> </div>
+      <div className='col' style={{borderLeft:'4px solid rgba(0,109,184,255)ff',margin:'0',padding:'0',marginLeft:'20%'}}> </div>
       <div className='col card'>
         
       </div><br></br>
    </div> */}
-        <div style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem' }}>
-            <br />
-            <div style={{ textAlign: 'center' }}>
-                <h3 style={{ fontFamily: 'Quicksand' }}>Advisors</h3>
-            </div>
-            <br />
+            <div style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem' }}>
+                <br />
+                <div style={{ textAlign: 'center' }}>
+                    <h3 style={{ fontFamily: 'Quicksand' }}>Advisors</h3>
+                </div>
+                <br />
 
-            {/* <div className='row m-2'>
+                {/* <div className='row m-2'>
 
                 <div className='col card border-0 shadow p-4 m-1'>
                     <div style={{ display: 'flex', maxHeight: '50vh', alignItems: 'center' }}>
@@ -121,7 +121,7 @@ export default function Advisors() {
                         He has a Bachelor of Arts degree in Economics from the University of Delhi and a Post Graduate Diploma in Management (PGDM) from the Indian Institute of Management (IIM), Ahmedabad.
                     </div>
                 </div>
-        </div>
-   </>
-  )
+            </div>
+        </>
+    )
 }
