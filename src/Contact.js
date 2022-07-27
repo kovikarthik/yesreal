@@ -13,32 +13,33 @@ function Contact() {
         <h3 style={{ fontFamily: 'Quicksand' }}>CONTACT US</h3>
       </div>
 
-      <div className="aboutus" style={{ textAlign: "left", padding: '2rem', paddingTop: '0.5rem', paddingBottom: '0', margin: '0' }}>
+      <div className="aboutus" style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem', paddingBottom: '0', margin: '0' }}>
         <br />
         <div className='row' >
-          <div className='col' style={{ margin: '4rem', padding: '0' }}>
-            <div className='row' style={{ marginLeft: "2rem" }}>
+          <div className='col' style={{ margin: '4rem', padding: '0' ,marginTop: '3rem' }}>
+            <div className='row' style={{ marginLeft: "2rem", display: 'flex', alignItems: 'right', justifyContent: 'right' }}>
+              <h4 style={{ fontFamily: "Hind Vadodara" }}><strong>Office</strong></h4>
+              <hr></hr>
               <div className='col-3'> <FontAwesomeIcon style={{ fontSize: '20vh' }} icon={faMapLocationDot} /></div>
 
               <div className='col'>
-                <h4 style={{ fontFamily: "Hind Vadodara" }}><strong>Office</strong></h4>
+                <br></br>
 
-                3094-13th Cross, <br></br>6th A Main 2nd Stage Near ESI Quater <br></br>Indira Nagar Bengaluru <br></br>Bangalore Karanataka <br /> 560038 India<br></br><br></br>
+                3094-13th Cross, <br></br>6th A Main 2nd Stage Near ESI Quater <br></br>Indira Nagar Bengaluru <br></br>Bangalore Karanataka <br /> - 560038 India.<br></br>
               </div>
             </div>
 <br/><br/>
-            <div>
-              <div style={{ margin: '2rem', marginTop: '0rem' }}>
+            <div style={{ margin: '2rem', marginTop: '0rem' }}>
                 <FontAwesomeIcon icon={faPhone} /> &nbsp; &nbsp; &nbsp; +91 1234567890
-                <br></br> <FontAwesomeIcon icon={faEnvelope} /> &nbsp; &nbsp; &nbsp; yrt@yesrealtech.com
-              </div>
+                <br></br> <FontAwesomeIcon icon={faEnvelope} /> &nbsp; &nbsp; &nbsp; yrt@yesrealtech.com<br></br><br></br>
+              <div >
+                <h4 style={{ fontFamily: "Hind Vadodara" }}><strong>Social Media</strong></h4><hr></hr>
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<i class='bx bxl-linkedin-square bx-tada bx-rotate-90' style={{margin:'0',padding: '0',fontSize:'2rem'}} onClick={() => { openwebpage('https://www.linkedin.com/in/yesreal-technologies-private-limited-91100b233') }} ></i> 
+                &nbsp; &nbsp; &nbsp;<i class='bx bxl-facebook-circle bx-tada bx-rotate-90' style={{ margin: '0', padding: '0', fontSize: '2rem' }}></i> &nbsp; &nbsp; &nbsp;
+                <i class='bx bxl-twitter bx-tada bx-rotate-90' style={{ margin: '0', padding: '0', fontSize: '2rem' }}></i>
+              </div><br></br>
              
-              <div style={{ margin: '2rem', marginTop: '0rem' }}>
-                
-                <img src='http://www.infoedge.in/images/icon-linkedin-footer.gif' onClick={() => { openwebpage('https://www.linkedin.com/in/yesreal-technologies-private-limited-91100b233') }} />
-                &nbsp; &nbsp; &nbsp;       <img src='http://www.infoedge.in/images/icon-facebook-footer.gif' /> &nbsp; &nbsp; &nbsp;
-                <img src='http://www.infoedge.in/images/icon-twitter-footer.gif' />
-              </div>
+               
             </div>
 
 

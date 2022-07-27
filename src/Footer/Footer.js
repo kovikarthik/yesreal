@@ -33,9 +33,9 @@ export default function Footer() {
               <div className="col-2 " ></div>
               <div className="col-2 " >
                 3094-13th Cross, 6th A Main 2nd Stage Near ESI Quater Indira Nagar Bengaluru Bangalore Karanataka - 560038 India<br></br><br></br>
-                <img src='http://www.infoedge.in/images/icon-linkedin-footer.gif' onClick={()=>{openwebpage('https://www.linkedin.com/in/yesreal-technologies-private-limited-91100b233')}} />
-                <img src='http://www.infoedge.in/images/icon-facebook-footer.gif'/>
-                <img src='http://www.infoedge.in/images/icon-twitter-footer.gif'/>
+                <i class='bx bxl-linkedin-square bx-tada bx-rotate-90' style={{margin:'0',marginRight:'2px',paddingRight:'2px',fontSize:'2rem'}} onClick={() => { openwebpage('https://www.linkedin.com/in/yesreal-technologies-private-limited-91100b233') }} ></i> 
+                <i class='bx bxl-facebook-circle bx-tada bx-rotate-90' style={{ margin: '0',marginRight:'2px', paddingRight:'2px', fontSize: '2rem' }}></i>
+                <i class='bx bxl-twitter bx-tada bx-rotate-90' style={{ margin: '0', padding: '0', fontSize: '2rem' }}></i>                
               </div>
       </div>
       <div className='row scrcenter' style={{}} >@Copyright 2022 Yesreal Technologies Private Limited</div>
