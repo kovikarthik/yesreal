@@ -55,10 +55,10 @@ function Header() {
     return (
         <div  style={{borderBottom:"0.5px solid lightgray",paddingBottom:10}}>
         
-            <div className='container' style={{ padding: '0.6rem',margin:'1rem',marginLeft:'3rem' }}><br />
-            <span style={{float:'left',padding:'0',margin:'0',marginTop:'-1.5rem'}}>
-                <img src={logo} style={{height:'4rem',width:'4rem'}}/>
-                <img src={logoname} style={{height:'4rem',width:'10rem'}}/>
+            <div className='container' style={{ padding: '0.3rem',margin:'1rem',marginLeft:'5rem' }}><br />
+            <span style={{float:'left',padding:'0',margin:'0',marginTop:'-1.8rem'}}>
+                <img src={logo} style={{height:'5rem',width:'5rem'}}/>
+                <img src={logoname} style={{height:'5rem',width:'12rem'}}/>
             </span>
                <span >
                     {headercontent.map((h,i) => {
