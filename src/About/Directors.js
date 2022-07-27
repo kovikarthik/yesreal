@@ -9,7 +9,7 @@ function Directors() {
             <br />
             <br/>
             <div style={{ textAlign: 'center' }}>
-                <h3 style={{ fontFamily: 'Quicksand', color:"#546e7a"}}>BOARD OF DIRECTORS </h3>
+                <h3 style={{ fontFamily: 'Quicksand', color:"rgba(0,109,184,255)"}}>BOARD OF DIRECTORS </h3>
             </div>
             <br/>
 
@@ -38,7 +38,7 @@ function Directors() {
                         </div>
                         <div style={{ marginLeft: '2rem' }}><br/><br/>
                             <strong style={{ fontSize: '1.1rem' }} className='pop'>Sujeeth Nadella</strong> <br />
-                            Chairman and Non-Executive Director <br />Chairman-Stakeholders’ Relationship Committee
+                            Director
                         </div>
                     
                     </div>
@@ -59,7 +59,7 @@ function Directors() {
                         </div>
                         <div style={{ marginLeft: '2rem' }}><br /><br />
                             <strong style={{ fontSize: '1.1rem' }} className='pop'> Dinesh Motakatla</strong> <br />
-                            Chairman and Non-Executive Director <br />Chairman-Stakeholders’ Relationship Committee
+                            Director
                         </div>
 
                     </div>

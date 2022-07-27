@@ -11,8 +11,8 @@ function Projects() {
             <br />
             <div style={{ display: 'flex' }}>
                 <div id="onhover" >
-                    <div className="card shadow " style={{ width: '35vw', margin: "3rem", marginBottom: "0rem", padding: "2rem", textAlign: 'left', }}>
-                    <h5 style={{ fontFamily: 'Poppins' }}><strong>YesrealTechnologies.com</strong></h5>
+                    <div className="card shadow" style={{ width: '35vw', margin: "3rem", marginBottom: "0rem", padding: "2rem", textAlign: 'left', }}>
+                    <h5 style={{ fontFamily: 'Poppins' }}><strong>YesrealTechnologies</strong></h5>
                     YesrealTechnologies.com is the solution of choice together we can revolutionize how gurus and sishyas form and maintain professional relationships, maximize their opportunities, share information, and hopefully guide them to fulfilling talents and careers. Yrt  leverages the powerful technology to help institutions and companies to meet their scholastic goals on recruitment, branding, and verifications
                 </div>
 </div>
@@ -20,9 +20,9 @@ function Projects() {
 
                 <div >
 
-                    <div style={{ width: "0.2rem", height: "8vh", background: "white", marginLeft: "6rem" }}></div>
-                    <span className="card shadow" style={{ color: "white", fontFamily: "Poppins", background: "#02399D", padding: "1rem", border: "0.1px solid white" }}><strong>March 2022</strong></span>
-                    <div style={{ width: "0.2rem", height: "25vh", background: "white", marginLeft: "6rem" }}></div>
+                    <div style={{ width: "0.2rem", height: "8vh", background: "white", marginLeft: "5.8rem" }}></div>
+                    <span className="card shadow" style={{ color: "white", fontFamily: "Poppins", background: "#02399D", padding: "1rem", border: "0.1px solid white" }}><strong>December 2020</strong></span>
+                    <div style={{ width: "0.2rem", height: "25vh", background: "white", marginLeft: "5.8rem" }}></div>
                 </div>
                 <div style={{ width: "16vw"}}></div>
                     <img  src={image} style={{ height: "255px", width: "300px",float:"right" }} />
@@ -32,7 +32,7 @@ function Projects() {
                 </div>
                 <div >
                     <div style={{ width: "0.2rem", height: "10vh", background: "white", marginLeft: "6rem" }}></div>
-                    <span className="card shadow" style={{ color: "white", fontFamily: "Poppins", marginLeft: "5rem", background: "#02399D", padding: "1rem", border: "0.1px solid white" }}><strong>August 2021</strong></span>
+                    <span className="card shadow" style={{ color: "white", fontFamily: "Poppins", marginLeft: "5rem", background: "#02399D", padding: "1rem", border: "0.1px solid white" }}><strong>August 2022</strong></span>
                     <div style={{ width: "0.2rem", height: "30vh", background: "white", marginLeft: "6rem" }}></div>
                 </div>
                 <div id="onhover">

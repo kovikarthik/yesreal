@@ -28,29 +28,29 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route exact path='/yesrealtechnologies/' element={<Mainpage />}>        
+          <Route exact path='/yesrealtechnologies/' element={<Mainpage />}>
             <Route index element={<Homepage />}></Route>
-            <Route exact path='about' element={<About />}>
+            <Route exact path='/yesrealtechnologies/about' element={<About />}>
               <Route index element={<AboutOverview />}></Route>
-              <Route  path='vision' element={<Vision />}></Route>
-              <Route  path='directors' element={<Directors />}></Route>
+              <Route path='vision' element={<Vision />}></Route>
+              <Route path='directors' element={<Directors />}></Route>
               <Route path='management' element={<Management />}></Route>
               <Route path="projects" element={<Projects />}></Route>
             </Route>
             <Route exact path='business' element={<Business />}>
               <Route index element={<BussinessOverview />}></Route>
-              <Route  path="recruitment" element={<Recruitment />}></Route>
-              <Route  path="advisors" element={<Advisor/>}></Route>
-              <Route  path="productdevelopment" element={<Productdevelopment />}></Route>
-              <Route  path="backendverification" element={<Backendverification />}></Route>
+              <Route path="recruitment" element={<Recruitment />}></Route>
+              <Route path="advisors" element={<Advisor />}></Route>
+              <Route path="productdevelopment" element={<Productdevelopment />}></Route>
+              <Route path="backendverification" element={<Backendverification />}></Route>
               <Route path="sass" element={<Sass />}></Route>
-              <Route  path="digitalmarketing" element={<Digitalmarketing />}></Route>
+              <Route path="digitalmarketing" element={<Digitalmarketing />}></Route>
             </Route>
-            <Route  path='careers' element={<Careers />}></Route>
-            <Route  path='media' element={<Media />}></Route>
-            <Route  path='investor' element={<Investor />}></Route>
-            <Route  path='security' element={<Security />}></Route>
-            <Route  path='contact' element={<Contact />}></Route>
+            <Route path='careers' element={<Careers />}></Route>
+            <Route path='media' element={<Media />}></Route>
+            <Route path='investor' element={<Investor />}></Route>
+            <Route path='security' element={<Security />}></Route>
+            <Route path='contact' element={<Contact />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>

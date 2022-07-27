@@ -160,7 +160,7 @@ function Careers() {
 
             </strong></span>
             <span style={{ fontSize: "0.8rem", marginTop: "0.4rem", color: "grey", letterSpacing: "0.02rem", marginLeft: "0.2rem" }}> EXPERIENCE<br />
-              <strong style={{ color: "black" }}>                       3 to 10 Years
+              <strong style={{ color: "black" }}>                        10<sup>+</sup> Years
 
 
               </strong></span>
@@ -182,7 +182,7 @@ function Careers() {
             <span style={{ fontFamily: "Poppins" }}><strong>                       Engineering Manager
             </strong></span>
             <span style={{ fontSize: "0.8rem", marginTop: "0.4rem", color: "grey", letterSpacing: "0.02rem", marginLeft: "0.2rem" }}> EXPERIENCE<br />
-              <strong style={{ color: "black" }}>                       3 to 10 Years
+              <strong style={{ color: "black" }}>                       10<sup>+</sup> Years
 
 
               </strong></span>
