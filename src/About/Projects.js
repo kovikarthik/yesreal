@@ -12,8 +12,8 @@ function Projects() {
             <div style={{ display: 'flex' }}>
                 <div id="onhover" >
                     <div className="card shadow" style={{ width: '35vw', margin: "3rem", marginBottom: "0rem", padding: "2rem", textAlign: 'left', }}>
-                    <h5 style={{ fontFamily: 'Poppins' }}><strong>YesrealTechnologies</strong></h5>
-                    YesrealTechnologies.com is the solution of choice together we can revolutionize how gurus and sishyas form and maintain professional relationships, maximize their opportunities, share information, and hopefully guide them to fulfilling talents and careers. Yrt  leverages the powerful technology to help institutions and companies to meet their scholastic goals on recruitment, branding, and verifications
+                    <h5 style={{ fontFamily: 'Poppins' }}><strong>Yesreal Technologies Private Limited </strong></h5>
+                    Yesreal Technologies is the solution of choice together we can revolutionize how gurus and sishyas form and maintain professional relationships, maximize their opportunities, share information, and hopefully guide them to fulfilling talents and careers. Yrt  leverages the powerful technology to help institutions and companies to meet their scholastic goals on recruitment, branding, and verifications
                 </div>
 </div>
 

@@ -43,7 +43,7 @@ function Careers() {
               </strong></span>
 
             <span style={{ fontSize: "0.9rem", marginTop: "0.4rem" }}>
-              JavaScript HTML, CSS, Angulars(2+Versions/Re actis, ExpressJS, Nodels, MongoDB.
+              JavaScript HTML, CSS, ReactJs(2+Versions), ExpressJS, NodeJs, MongoDB.
 
 
             </span>
@@ -62,7 +62,7 @@ function Careers() {
               </strong></span>
 
             <span style={{ fontSize: "0.9rem", marginTop: "0.4rem" }}>
-              JavaScript HTML, CSS, Angulars(2+Versions/Re actis, ExpressJS, Nodels, MongoDB.
+              JavaScript HTML, CSS, ExpressJS, NodeJs, MongoDB.
 
 
             </span>
@@ -81,7 +81,7 @@ function Careers() {
               </strong></span>
 
             <span style={{ fontSize: "0.9rem", marginTop: "0.4rem" }}>
-              JavaScript HTML, CSS, Angulars(2+Versions/Re actis, ExpressJS, Nodels, MongoDB.
+              JavaScript HTML, CSS, AngularJs(2+Versions), ExpressJS, NodeJs, MongoDB.
 
 
             </span>
@@ -100,8 +100,9 @@ function Careers() {
               </strong></span>
 
             <span style={{ fontSize: "0.9rem", marginTop: "0.4rem" }}>
-              JavaScript HTML, CSS, Angulars(2+Versions/Re actis, ExpressJS, Nodels, MongoDB.
-
+              {/* JavaScript HTML, CSS, Angulars(2+Versions/Re actis, ExpressJS, NodeJs, MongoDB. */}
+              preparing mockups, wireframing, protoyping.
+              Tools - Figma, AdobeXD, Sketch.
 
             </span>
 
@@ -128,7 +129,8 @@ function Careers() {
               </strong></span>
 
             <span style={{ fontSize: "0.9rem", marginTop: "0.4rem" }}>
-              JavaScript HTML, CSS, Angulars(2+Versions/Re actis, ExpressJS, Nodels, MongoDB.
+            Prior Experience in Startups, Negotiation Skills, Growth roadmap and innovations, Architect, Engineer hunting and team growth management, Product Management, Strategic Thinking, Managing Talent, Managing Innovation, Managing Priorities
+
 
 
             </span>
@@ -145,8 +147,8 @@ function Careers() {
 
               </strong></span>
 
-            <span style={{ fontSize: "0.9rem", marginTop: "0.4rem" }}>
-              JavaScript HTML, CSS, Angulars(2+Versions/Re actis, ExpressJS, Nodels, MongoDB.
+            <span style={{ fontSize: "0.9rem", marginTop: "0.4rem",textAlign:'left' }}>
+            Prior Experience in Startups, Negotiation Skills, Growth roadmap and innovations, Architect, Engineer hunting and team growth management, Product Management, Strategic Thinking, Managing Talent, Managing Innovation, Managing Priorities
 
 
             </span>
@@ -159,20 +161,20 @@ function Careers() {
             <span style={{ fontFamily: "Poppins" }}><strong>                       Chief Technology Officer
 
             </strong></span>
-            <span style={{ fontSize: "0.8rem", marginTop: "0.4rem", color: "grey", letterSpacing: "0.02rem", marginLeft: "0.2rem" }}> EXPERIENCE<br />
+            <span style={{ fontSize: "0.8rem",  marginTop: "0.4rem",  color: "grey",  letterSpacing: "0.02rem",  marginLeft: "0.2rem" }}> EXPERIENCE<br />
               <strong style={{ color: "black" }}>                        10<sup>+</sup> Years
 
 
               </strong></span>
 
-            <span style={{ fontSize: "0.9rem", marginTop: "0.4rem" }}>
-              JavaScript HTML, CSS, Angulars(2+Versions/Re actis, ExpressJS, Nodels, MongoDB.
+            <span style={{ fontSize: "0.9rem", marginTop: "0.4rem",textAlign:'left' }}>
+            Prior Experience in Startups, Negotiation Skills, Growth roadmap and innovations, Architect, Servers, Cybersecurity, Tech & Coding Skills (Full Stack), team growth management, Product Management, Team Management Skills, Strategic Thinking, Managing Talent, Managing Innovation, Managing Priorities.
 
 
             </span>
             <br />
             {/* <a href='../assets/cto.pdf' target='_blank'>koo</a> */}
-            {/* <div style={{ marginLeft: "13rem", color: '#02399D' }}> <strong onClick={()=>{openwebpage('../assests/cto.pdf')}}>Know more</strong></div> */}
+            {/* <div style={{ marginLeft: "13rem",  color: '#02399D' }}> <strong onClick={()=>{openwebpage('../assests/cto.pdf')}}>Know more</strong></div> */}
             <div style={{ marginLeft: "13rem", color: '#02399D' }}> <strong ><a href={cto} target="_blank" style={{cursor:'pointer',textDecoration:'none',color:'black'}}>Know more</a></strong></div>
 
 
@@ -187,8 +189,9 @@ function Careers() {
 
               </strong></span>
 
-            <span style={{ fontSize: "0.9rem", marginTop: "0.4rem" }}>
-              JavaScript HTML, CSS, Angulars(2+Versions/Re actis, ExpressJS, Nodels, MongoDB.
+            <span style={{ fontSize: "0.9rem", marginTop: "0.4rem",textAlign:'left' }}>
+            Prior Experience in Startups, Negotiation Skills, Growth roadmap and innovations, Architect, Servers, MVP (Minimum Viable Product) and DevOps issues, team growth management, Product Management, Team Management Skills, Strategic Thinking, Managing Talent, Managing Innovation, Managing Priorities.
+
 
 
             </span>
