@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yesrealtechnologies/static/css/main.c4a0962c.css",
-    "main.js": "/yesrealtechnologies/static/js/main.c9afeb0c.js",
+    "main.css": "/yesrealtechnologies/static/css/main.17d2867b.css",
+    "main.js": "/yesrealtechnologies/static/js/main.5ca7109c.js",
     "static/js/787.cf52039c.chunk.js": "/yesrealtechnologies/static/js/787.cf52039c.chunk.js",
     "static/media/project.gif": "/yesrealtechnologies/static/media/project.417de8d8a90444957477.gif",
     "static/media/investors.gif": "/yesrealtechnologies/static/media/investors.b0c5c8f5df99fad3abb8.gif",
@@ -12,10 +12,10 @@
     "static/media/about.jpg": "/yesrealtechnologies/static/media/about.459c44f963cc8cee9886.jpg",
     "static/media/bussinessact.jpg": "/yesrealtechnologies/static/media/bussinessact.eb6be27b0e6a95eab588.jpg",
     "static/media/careers.gif": "/yesrealtechnologies/static/media/careers.052ee0da35c86c805881.gif",
-    "static/media/logo.png": "/yesrealtechnologies/static/media/logo.14df1c914e5bedab140d.png",
     "static/media/saas.png": "/yesrealtechnologies/static/media/saas.94d1eb956e454443a1d9.png",
     "static/media/cto.pdf": "/yesrealtechnologies/static/media/cto.b9e8c45c9799c6e6d2b9.pdf",
     "static/media/tablogo.jpg": "/yesrealtechnologies/static/media/tablogo.2304ef2bf5c1f217a139.jpg",
+    "static/media/logo.png": "/yesrealtechnologies/static/media/logo.1514eef2b1f5084c6971.png",
     "static/media/mission.gif": "/yesrealtechnologies/static/media/mission.07ea0f95876270aece40.gif",
     "static/media/testimonial.jpg": "/yesrealtechnologies/static/media/testimonial.1367d8b1dda919c6ff02.jpg",
     "static/media/bussiness.jpg": "/yesrealtechnologies/static/media/bussiness.63cb624bea240652d029.jpg",
@@ -23,12 +23,12 @@
     "static/media/contactus.jpg": "/yesrealtechnologies/static/media/contactus.dfc868edd9432937b894.jpg",
     "static/media/logo.svg": "/yesrealtechnologies/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/yesrealtechnologies/index.html",
-    "main.c4a0962c.css.map": "/yesrealtechnologies/static/css/main.c4a0962c.css.map",
-    "main.c9afeb0c.js.map": "/yesrealtechnologies/static/js/main.c9afeb0c.js.map",
+    "main.17d2867b.css.map": "/yesrealtechnologies/static/css/main.17d2867b.css.map",
+    "main.5ca7109c.js.map": "/yesrealtechnologies/static/js/main.5ca7109c.js.map",
     "787.cf52039c.chunk.js.map": "/yesrealtechnologies/static/js/787.cf52039c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4a0962c.css",
-    "static/js/main.c9afeb0c.js"
+    "static/css/main.17d2867b.css",
+    "static/js/main.5ca7109c.js"
   ]
 }
