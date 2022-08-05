@@ -12,6 +12,7 @@ import testimonial from '../assets/testimonial.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../About/About.css'
 import { faPersonWalking, faLightbulb, faCheckCircle, faServer } from '@fortawesome/free-solid-svg-icons'
+import ScrollTop from '../ScrollTop';
 
 
 function Homepage() {
@@ -99,8 +100,8 @@ function Homepage() {
       {/* <div>
           <img src={hometop} style={{width:'100%',height:'100%'}}/>
       </div> */}
-      <div className="homeaboutus">
-        {/* <div> */}
+      <div className="homeaboutus" id='top'>
+        {/* <div> */}      <ScrollTop/>
         <div style={{ padding: "6rem", paddingTop: "3.5rem", paddingLeft: "17vw", paddingBottom: "0" }} >
           <Carousel style={{ width: "68vw" ,height:'60vh'}} className="card shadow">
             {/* <Carousel > */}
@@ -167,10 +168,9 @@ function Homepage() {
           </Carousel>
         </div>
       
-            <div className='row'  style={{margin:'4rem',padding:'0',marginBottom:'0'}}>
+    <div className='row'  style={{margin:'4rem',padding:'0',marginBottom:''}}>
       <div className='col-6' style={{margin:'0',padding:'0'}}>
         <img src={bussinessact} style={{width:'100%',height:'100%'}}/>
-      
       </div>
         <div className='col' style={{ backgroundColor: 'whitesmoke', margin: '0', padding: '0', textAlign: 'center', paddingTop: '3rem' }}><br></br><br></br>
           <div className='' style={{ fontSize: '2rem' }}>Bussiness Activities</div>
@@ -207,7 +207,7 @@ function Homepage() {
           </Carousel><br></br><br></br>
           <NavLink className='btn btn-info' style={{ boxShadow: 'none' }} to="yesrealtechnologies/business" >All Bussiness Activities</NavLink>
         </div><br></br><br></br>
-      </div>
+    </div>
       {/* <div style={{backgroundImage:`url(${testimonial})`,backgroundRepeat: 'no-repeat',backgroundSize:'100% 100%',alignItems:'center',justifyContent:'center'}}> */}
       {/* <div style={{ backgroundColor: '#000', color: 'white', backgroundSize: '100% 100%', alignItems: 'center', justifyContent: 'center' }}>
         <br></br><br></br><span style={{ paddingTop: '2rem', fontWeight: 'bold', fontSize: '2rem' }}>Client Testimonials</span><br></br><br></br>
