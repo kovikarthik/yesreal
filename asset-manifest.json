@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yesrealtechnologies/static/css/main.be7d5ac2.css",
-    "main.js": "/yesrealtechnologies/static/js/main.90e38ca4.js",
+    "main.js": "/yesrealtechnologies/static/js/main.4c9c4379.js",
     "static/js/787.cf52039c.chunk.js": "/yesrealtechnologies/static/js/787.cf52039c.chunk.js",
     "static/media/project.gif": "/yesrealtechnologies/static/media/project.dd7728e5c74f2ba3b036.gif",
     "static/media/investment.gif": "/yesrealtechnologies/static/media/investment.623bfefb2b910b82e2cd.gif",
@@ -23,11 +23,11 @@
     "static/media/logo.svg": "/yesrealtechnologies/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/yesrealtechnologies/index.html",
     "main.be7d5ac2.css.map": "/yesrealtechnologies/static/css/main.be7d5ac2.css.map",
-    "main.90e38ca4.js.map": "/yesrealtechnologies/static/js/main.90e38ca4.js.map",
+    "main.4c9c4379.js.map": "/yesrealtechnologies/static/js/main.4c9c4379.js.map",
     "787.cf52039c.chunk.js.map": "/yesrealtechnologies/static/js/787.cf52039c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be7d5ac2.css",
-    "static/js/main.90e38ca4.js"
+    "static/js/main.4c9c4379.js"
   ]
 }
