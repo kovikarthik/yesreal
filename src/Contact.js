@@ -13,7 +13,7 @@ function Contact() {
         <h3 style={{ fontFamily: 'Quicksand' }}>CONTACT US</h3>
       </div>
 
-      <div className="aboutus" style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem', paddingBottom: '0', margin: '0' ,color:'#006db8'}}>
+      <div  style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem', paddingBottom: '0', margin: '0' ,color:'#006db8'}}>
         <br />
         <div className='row' >
           <div className='col' style={{ margin: '4rem', padding: '0' ,marginTop: '3rem' }}>

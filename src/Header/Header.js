@@ -23,16 +23,16 @@ function Header() {
         const headercontent = [
         { label: 'Home', routepath: '/yesrealtechnologies/', submenu:
         [
-                { label: 'Overview', routepath: '/yesrealtechnologies/about' },
+                { label: 'Overview', routepath: '/yesrealtechnologies/about/' },
                 { label: 'Vision & Mission', routepath: '/yesrealtechnologies/about/vision' },
                 { label: 'Board of Directors', routepath: '/yesrealtechnologies/about/directors' },
                 { label: "Milestones", routepath: '/yesrealtechnologies/about/projects' },
                 { label: 'Advisory Team', routepath: "/yesrealtechnologies/about/management" }
         ] },
         {
-            label: "About", routepath: 'about'
+            label: "About", routepath: '/yesrealtechnologies/about/'
             , submenu: [
-                { label: "Overview", routepath: "/yesrealtechnologies/business" },
+                { label: "Overview", routepath: "/yesrealtechnologies/business/" },
                 { label: "Recruitment", routepath: "/yesrealtechnologies/business/recruitment" },
                 { label: "Digital Marketing", routepath: "/yesrealtechnologies/business/digitalmarketing" },
                 { label: "Backend Verification", routepath: "/yesrealtechnologies/business/backendverification" },
@@ -41,7 +41,7 @@ function Header() {
         ]
             },
         
-        { label: "Business", routepath: '/yesrealtechnologies/business' },
+        { label: "Business", routepath: '/yesrealtechnologies/business/' },
         
         { label: "Careers", routepath: '/yesrealtechnologies/careers' },
      
@@ -71,7 +71,7 @@ function Header() {
 
                                 {(h.submenu && state==i) && <span onMouseEnter={()=>{enterSubMenu(i)}}
         onMouseLeave={() => setState(-1)}  className='green-box' style={{
-                                    position: 'absolute', marginTop: '2.5rem', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px', textAlign: 'left',padding:'1.2rem',zIndex:10,width:"53vw"}}>
+                                    position: 'absolute', marginTop: '2.5rem', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px', textAlign: 'left',padding:'1.2rem',zIndex:10,}}>
 
 
                                 {h.submenu.map((sub) => {
