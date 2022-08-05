@@ -99,7 +99,7 @@ function Homepage() {
       {/* <div>
           <img src={hometop} style={{width:'100%',height:'100%'}}/>
       </div> */}
-      <div className="aboutus">
+      <div className="homeaboutus">
         {/* <div> */}
         <div style={{ padding: "6rem", paddingTop: "3.5rem", paddingLeft: "17vw", paddingBottom: "0" }} >
           <Carousel style={{ width: "68vw" ,height:'60vh'}} className="card shadow">
@@ -167,7 +167,7 @@ function Homepage() {
           </Carousel>
         </div>
       
-            <div className='row'  style={{margin:'4rem',padding:'0'}}>
+            <div className='row'  style={{margin:'4rem',padding:'0',marginBottom:'0'}}>
       <div className='col-6' style={{margin:'0',padding:'0'}}>
         <img src={bussinessact} style={{width:'100%',height:'100%'}}/>
       
@@ -206,22 +206,19 @@ function Homepage() {
             </Carousel.Item>
           </Carousel><br></br><br></br>
           <NavLink className='btn btn-info' style={{ boxShadow: 'none' }} to="yesrealtechnologies/business" >All Bussiness Activities</NavLink>
-        </div>
+        </div><br></br><br></br>
       </div>
       {/* <div style={{backgroundImage:`url(${testimonial})`,backgroundRepeat: 'no-repeat',backgroundSize:'100% 100%',alignItems:'center',justifyContent:'center'}}> */}
-      <div style={{ backgroundColor: '#000', color: 'white', backgroundSize: '100% 100%', alignItems: 'center', justifyContent: 'center' }}>
-        {/* <img src={testimonial} style={{width:'100%'}}></img> */}
+      {/* <div style={{ backgroundColor: '#000', color: 'white', backgroundSize: '100% 100%', alignItems: 'center', justifyContent: 'center' }}>
         <br></br><br></br><span style={{ paddingTop: '2rem', fontWeight: 'bold', fontSize: '2rem' }}>Client Testimonials</span><br></br><br></br>
         <Carousel variant="dark" style={{ overflow: 'hidden' }} >
           <Carousel.Item interval={5000}>
-            {/* <Carousel.Caption></Carousel.Caption> */}
             &nbsp; <span style={{ fontWeight: 'bold' }}>"YRT has one of the most astonishing team of seasoned professionals who have the distinct ability to surpass client expectations, each time.
               <br></br>Their expertise, industry relationships and long term vision has propelled them as one of the best in the business."
 
               <br></br> -Mike | Vice President | South Asia Discovery Networks Asia Pacific</span>
           </Carousel.Item>
           <Carousel.Item interval={5000} >
-            {/* <FontAwesomeIcon style={{color:'rgba(0,109,184,255)'}} className='icon' icon={faLightbulb} />&nbsp; */}
             &nbsp; <span style={{ fontWeight: 'bold' }}>"YRT has one of the most astonishing team of seasoned professionals who have the distinct ability to surpass client expectations, each time.
               <br></br>Their expertise, industry relationships and long term vision has propelled them as one of the best in the business."
 
@@ -229,21 +226,19 @@ function Homepage() {
 
           </Carousel.Item>
           <Carousel.Item interval={5000}>
-            {/* <FontAwesomeIcon style={{color:'rgba(0,109,184,255)'}} className='icon' icon={faCheckCircle} />&nbsp; */}
             &nbsp; <span style={{ fontWeight: 'bold' }}>"YRT has one of the most astonishing team of seasoned professionals who have the distinct ability to surpass client expectations, each time.
               <br></br>Their expertise, industry relationships and long term vision has propelled them as one of the best in the business."
 
               <br></br> -Lueise  | Vice President | South Asia Discovery Networks Asia Pacific</span>
           </Carousel.Item>
           <Carousel.Item interval={5000}>
-            {/* <FontAwesomeIcon style={{color:'rgba(0,109,184,255)'}} className='icon' icon={faServer} />&nbsp; */}
             &nbsp; <span style={{ fontWeight: 'bold' }}>"YRT has one of the most astonishing team of seasoned professionals who have the distinct ability to surpass client expectations, each time.
               <br></br>Their expertise, industry relationships and long term vision has propelled them as one of the best in the business."
 
               <br></br> -Frances | Vice President | South Asia Discovery Networks Asia Pacific</span>
           </Carousel.Item>
         </Carousel><br></br><br></br>
-        </div>
+        </div> */}
       </div>
     </>
   )

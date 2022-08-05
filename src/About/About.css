@@ -58,6 +58,10 @@ div {
   background: url('../assets/aboutus.png');
 }
 
+.homeaboutus {
+  background: #B2D3E9;
+}
+
 .contactus {
   background: #006db8
 }
