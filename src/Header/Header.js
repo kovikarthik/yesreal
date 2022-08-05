@@ -53,17 +53,15 @@ function Header() {
 
 
     return (
-        <div  style={{borderBottom:"0.5px solid lightgray",paddingBottom:10}}>
-        
+        <div  style={{borderBottom:"0.5px solid lightgray",paddingBottom:5}}>
             <div className='container' style={{ padding: '0.3rem',margin:'1rem',marginLeft:'5rem' }}><br />
             <span style={{float:'left',padding:'0',margin:'0',marginTop:'-1.8rem'}}>
-                <img src={logo} style={{height:'5rem',width:'5rem'}}/>
-                <img src={logoname} style={{height:'5rem',width:'12rem'}}/>
+                <img src={logo} style={{height:'4rem',width:'4rem'}}/>
+                <img src={logoname} style={{height:'4rem',width:'10rem'}}/>
             </span>
                <span >
                     {headercontent.map((h,i) => {
-                        return (
-                            
+                        return (                  
 <span>
                                 <NavLink onMouseEnter={() => setState(i-1)}
        to={h.routepath} style={{ padding: '0.7rem', marginTop: '1rem', marginRight: "0.3rem" }} className={({ isActive }) => (isActive) ? 'selected notselected' : 'notselected'}>{h.label}</NavLink>

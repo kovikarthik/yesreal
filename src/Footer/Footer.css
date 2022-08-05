@@ -5,14 +5,14 @@
 }
 .navbarbtn1{
     text-decoration:none;
-    color: rgba(0,109,184,255);
+    color: white;
     font-weight: bold;
     padding: 0.5vw;
 }
 
 .navbarbtn1:hover{
     text-decoration: underline;
-    color: rgba(0,109,184,255);
+    color: white;
     font-weight: bold;
 }
 

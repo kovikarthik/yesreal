@@ -8,7 +8,7 @@ export default function Footer() {
       };
   return (
    <>
-   <div className='footercontent ' style={{width:'100%',margin:'0',padding:'1rem',backgroundColor:'white',color:'rgba(0,109,184,255)',bottom:'0',boxShadow: 'rgba(99, 99, 99, 0.2) 8px 0px 8px 0px'}}>
+   <div className='footercontent ' style={{width:'100%',margin:'0',padding:'1rem',backgroundColor:'rgba(0,109,184,255)',color:'white',bottom:'0',boxShadow: 'rgba(99, 99, 99, 0.2) 8px 0px 8px 0px'}}>
       <div className='row scrcenter' >
               <NavLink className="col-2 navbarbtn1"  to="yesrealtechnologies/business" >Business</NavLink>
               <NavLink className="col-2 navbarbtn1"  to="yesrealtechnologies/careers" >Careers</NavLink>
@@ -38,7 +38,7 @@ export default function Footer() {
                 <i class='bx bxl-twitter bx-tada bx-rotate-90' style={{ margin: '0', padding: '0', fontSize: '2rem' }}></i>                
               </div>
       </div>
-      <div className='row scrcenter' style={{}} >@Copyright 2022 Yesreal Technologies Private Limited</div>
+      <div className='row scrcenter' style={{}} >@Copyright 2022 Yesreal Technologies Private Limited</div><br></br>
     </div>
    </>
   )
