@@ -1,18 +1,18 @@
-.scrcenter{
+.scrcenter {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.navbarbtn1{
-    text-decoration:none;
+
+.navbarbtn1 {
+    text-decoration: none;
     color: white;
-    font-weight: bold;
+
     padding: 0.5vw;
 }
 
-.navbarbtn1:hover{
+.navbarbtn1:hover {
     text-decoration: underline;
     color: white;
-    font-weight: bold;
-}
 
+}

@@ -5,8 +5,8 @@ function Overview() {
         <div style={{ textAlign: "left", }}>
 
 
-            <div style={{ textAlign: 'center', padding: "1rem" }} className="aboutus">
-                <h3 style={{ fontFamily: 'Quicksand' }}>ABOUT US</h3>
+            <div style={{ textAlign: 'center', padding: "1rem",background:"whiteSmoke" }} >
+                <h3 style={{ fontFamily: 'Quicksand' ,color:'#006db8'}}>ABOUT US</h3>
             </div>
 
 
