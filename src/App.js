@@ -30,10 +30,10 @@ function App() {
         <Routes>
           <Route exact path='/yesrealtechnologies/' element={<Mainpage />}>
             <Route index element={<Homepage />}></Route>
-            <Route exact path='/yesrealtechnologies/about' element={<About />}>
+            <Route exact path='about' element={<About />}>
               <Route index element={<AboutOverview />}></Route>
-              <Route path='vision' element={<Vision />}></Route>
-              <Route path='directors' element={<Directors />}></Route>
+              <Route exact path='vision' element={<Vision />}></Route>
+              <Route exact path='directors' element={<Directors />}></Route>
               <Route path='management' element={<Management />}></Route>
               <Route path="projects" element={<Projects />}></Route>
             </Route>
