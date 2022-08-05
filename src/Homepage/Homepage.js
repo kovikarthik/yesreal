@@ -121,30 +121,9 @@ function Homepage() {
               </Carousel.Caption>
             </Carousel.Item> */}
             <Carousel.Item interval={3000}>
-              <div className='row' style={{ background: "#4d888e", height: "87vh", width: "100vw" }}>
-                <div className='col'><br /><br /><br /><br />
-                  <img
-                    style={{ width: "68vw", height: '58vh' }}
-
-                    className="d-block w-100"
-                    src={career}
-                    alt="First slide"
-                  />
-                </div>
-                <div className='col shadow' style={{ padding: "12rem 4rem", borderTopLeftRadius: "50%", }}>
-                  <NavLink className="navbarbtn1" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }} to="yesrealtechnologies/careers" ><h2 style={{ fontFamily: "Poppins", color: "white", fontSize: "4rem" }}><strong>Career</strong></h2></NavLink>
-                  <h5 style={{ color: "white" }}>With a good perspective on history, we can have a better <br />understanding of the past and present, and thus a clear vision of the future</h5>
-                </div>
-              </div>
-
-              {/* <Carousel.Caption>
-              
-              </Carousel.Caption> */}
-            </Carousel.Item>
-            <Carousel.Item interval={3000}>
               <div className="row">
 
-                <div className='col ' style={{ padding: "12rem 4rem", background: "whiteSmoke", borderTopRightRadius: "60%", }}>
+                <div className='col ' style={{ padding: "12rem 4rem", background: "whiteSmoke", borderTopRightRadius: "60%",borderBottomRightRadius: "50%" }}>
                   <br />
                   <NavLink className="navbarbtn1" style={{ textDecoration: 'none' }} to="/yesrealtechnologies/business/" > <h1 style={{ fontFamily: "Poppins", color: "#1b1c1e", fontSize: "4rem" }}><strong>Bussiness</strong></h1></NavLink><br />
                   <h5 >Ahead of competition in an ever-changing volatile market, the company’s recent focus has been to develop new things</h5></div>
@@ -162,12 +141,29 @@ function Homepage() {
 
 
             </Carousel.Item>
+            
+            <Carousel.Item interval={3000}>
+              <div className='row' style={{ background: "#4d888e", height: "87vh", width: "100vw" }}>
+                <div className='col'><br /><br /><br /><br />
+                  <img
+                    style={{ width: "68vw", height: '58vh' }}
 
+                    className="d-block w-100"
+                    src={career}
+                    alt="First slide"
+                  />
+                </div>
+                <div className='col shadow' style={{ padding: "12rem 4rem", borderTopLeftRadius: "50%",borderBottomLeftRadius: "50%", backgroundColor:'#709FA4' }}>
+                  <NavLink className="navbarbtn1" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }} to="yesrealtechnologies/careers" ><h2 style={{ fontFamily: "Poppins", color: "white", fontSize: "4rem" }}><strong>Career</strong></h2></NavLink>
+                  <h5 style={{ color: "white" }}>With a good perspective on history, we can have a better <br />understanding of the past and present, and thus a clear vision of the future</h5>
+                </div>
+              </div>
 
-
-
-
-
+              {/* <Carousel.Caption>
+              
+              </Carousel.Caption> */}
+            </Carousel.Item>
+            
 
             <Carousel.Item interval={3000}>
               <div className='row' style={{ height: "87vh" }}>
