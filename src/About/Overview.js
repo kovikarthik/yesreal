@@ -10,7 +10,7 @@ function Overview() {
             </div>
 
 
-            <div className="trans" style={{ padding: "8rem", background: "#FFAA1D", fontFamily: "poppins", fontSize: "1.5rem" }}>
+            <div className="trans" style={{ padding: "8rem", background: "#FFD029", fontFamily: "poppins", fontSize: "1.5rem" }}>
 
                 {/* <strong>Yesreal Technologies</strong> has an in-depth understanding of the Indian consumer internet domain. With years of experience in the domain, strong cash flow generation and a diversified business portfolio, it one of the very few profitable pure play internet companies in the country.
                 The company was incorporated on May 1, 1995 under the Companies Act, 1956 as Yesreal Technologies (India) Private Limited and became a public limited company on April 27, 2006. Starting with a classified recruitment online business, naukri.com, Yesreal Technologies has grown and diversified rapidly, setting benchmarks as a pioneer for others to follow. Driven by innovation, creativity, an experienced and talented leadership team and a strong culture of entrepreneurship, today, it is India’s premier online classifieds company in recruitment, matrimony, real estate, education and related services.
