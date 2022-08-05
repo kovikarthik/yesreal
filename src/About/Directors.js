@@ -27,50 +27,51 @@ function Directors() {
                     </div>
                 </div>
             </div> */}
+            
+            <div style={{ display: "flex", justifyContent: 'center', maxHeight: "100vh" }}>
+                <div  >
 
-            <div className='row m-2'>
+                    <div className=' shadow p-0 m-1 halfdirect border-0 p-4 ' style={{ width: "45vw" }} >
 
-                <div className='col card shadow p-0 m-1 halfdirect border-0'>
+                        <div style={{ display: 'flex' }}>
+                            <div style={{ marginLeft: "1rem" }} ><br />
+                                <img src={image} style={{ height: "120px", width: "120px", borderRadius: '50%', boxShadow: "0px 3px 8px  rgba(0, 0, 0, 0.24)", paddingTop: '10px', backgroundColor: "white" }} />
+                            </div>
+                            <div style={{ marginLeft: '2rem' }}><br /><br />
+                                <strong style={{ fontSize: '1.1rem' }} className='pop'>Sujeeth Nadella</strong> <br />
+                                Director
+                            </div>
 
-                    <div style={{ display: 'flex' }}>
-                        <div style={{ marginLeft: "2rem" }} ><br />
-                            <img src={image} style={{ height: "130px", width: "120px", borderRadius: '50%', boxShadow: "0px 3px 8px  rgba(0, 0, 0, 0.24)", paddingTop: '10px', backgroundColor: "white" }} />
                         </div>
-                        <div style={{ marginLeft: '2rem' }}><br /><br />
-                            <strong style={{ fontSize: '1.1rem' }} className='pop'>Sujeeth Nadella</strong> <br />
-                            Director
-                        </div>
-
-                    </div>
-                    <div style={{ marginLeft: "6rem", padding: '1rem' }} >
+                        {/* <div style={{ marginLeft: "6rem", padding: '1rem' }} >
 
                         Mr. Sudeesh started his professional career in 1987 with Nestle India Limited. He later worked with Bausch & Lomb, where he was part of the startup team that launched RayBan sunglasses and the Bausch & Lomb vision care range in India. He subsequently went on to manage the overseas marketing territories of Russia, Ukraine and East Africa in addition to the SAARC region. In 1996, Mr. Kapoor relocated to Thailand as the Country Manager for Bausch & Lomb and Commercial Director for South East Asia and the SAARC region.
 
                         He has a Bachelor of Arts degree in Economics from the University of Delhi and a Post Graduate Diploma in Management (PGDM) from the Indian Institute of Management (IIM), Ahmedabad.
+                    </div> */}
                     </div>
-                </div>
 
+                    <br />
+                    <div className=' shadow p-0 m-1 halfdirect border-0 p-4 ' style={{ width: "45vw" }}>
 
-                <div className='col card shadow p-0 m-1 halfdirect border-0'>
-
-                    <div style={{ display: 'flex' }}>
-                        <div style={{ marginLeft: "2rem" }} ><br />
-                            <img src={dinesh} style={{ height: "130px", width: "120px", borderRadius: '50%', boxShadow: "0px 3px 8px  rgba(0, 0, 0, 0.24)", paddingTop: '10px', backgroundColor: "white" }} />
-                        </div>
-                        <div style={{ marginLeft: '2rem' }}><br /><br />
-                            <strong style={{ fontSize: '1.1rem' }} className='pop'> Dinesh Motakatla</strong> <br />
-                            Director
-                        </div>
-
-                    </div>
-                    <div style={{ marginLeft: "6rem", padding: '1rem' }} >
+                        <div style={{ display: 'flex' }}>
+                            <div style={{ marginLeft: "1rem" }} ><br />
+                                <img src={dinesh} style={{ height: "120px", width: "120px", borderRadius: '50%', boxShadow: "0px 3px 8px  rgba(0, 0, 0, 0.24)", paddingTop: '10px', backgroundColor: "white" }} />
+                            </div>
+                            <div style={{ marginLeft: '2rem' }}><br /><br />
+                                <strong style={{ fontSize: '1.1rem' }} className='pop'> Dinesh Motakatla</strong> <br />
+                                Director
+                            </div>
+                        </div><br />
+                        {/* <div style={{ marginLeft: "6rem", padding: '1rem' }} >
 
                         Mr. Dinesh started his professional career in 1987 with Nestle India Limited. He later worked with Bausch & Lomb, where he was part of the startup team that launched RayBan sunglasses and the Bausch & Lomb vision care range in India. He subsequently went on to manage the overseas marketing territories of Russia, Ukraine and East Africa in addition to the SAARC region. In 1996, Mr. Kapoor relocated to Thailand as the Country Manager for Bausch & Lomb and Commercial Director for South East Asia and the SAARC region.
 
                         He has a Bachelor of Arts degree in Economics from the University of Delhi and a Post Graduate Diploma in Management (PGDM) from the Indian Institute of Management (IIM), Ahmedabad.
+                    </div> */}
                     </div>
-                </div>
 
+                </div>
             </div>
 
 

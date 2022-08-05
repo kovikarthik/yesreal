@@ -43,7 +43,7 @@ function Careers() {
               </strong></span>
 
             <span style={{ fontSize: "0.9rem", marginTop: "0.4rem" }}>
-              JavaScript HTML, CSS, ReactJs(2+Versions), ExpressJS, NodeJs, MongoDB.
+               HTML, CSS, JavaScript, ReactJs(2+Versions)
 
 
             </span>
@@ -62,7 +62,7 @@ function Careers() {
               </strong></span>
 
             <span style={{ fontSize: "0.9rem", marginTop: "0.4rem" }}>
-              JavaScript HTML, CSS, ExpressJS, NodeJs, MongoDB.
+              JavaScript, ExpressJS, NodeJs, MongoDB.
 
 
             </span>
@@ -81,7 +81,7 @@ function Careers() {
               </strong></span>
 
             <span style={{ fontSize: "0.9rem", marginTop: "0.4rem" }}>
-              JavaScript HTML, CSS, AngularJs(2+Versions), ExpressJS, NodeJs, MongoDB.
+              TypeScript HTML, CSS, AngularJs(2+Versions)
 
 
             </span>

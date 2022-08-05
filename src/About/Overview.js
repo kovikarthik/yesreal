@@ -3,15 +3,16 @@ import './About.css'
 function Overview() {
     return (
         <div style={{ textAlign: "left", }}>
-            
 
-            <div style={{ textAlign: 'center',padding:"1rem"}} className="aboutus">
+
+            <div style={{ textAlign: 'center', padding: "1rem" }} className="aboutus">
                 <h3 style={{ fontFamily: 'Quicksand' }}>ABOUT US</h3>
             </div>
 
-          
-            <div className="trans" style={{ padding: "2rem", background:"#FFD029"}}>
-                <strong>Yesreal Technologies</strong> has an in-depth understanding of the Indian consumer internet domain. With years of experience in the domain, strong cash flow generation and a diversified business portfolio, it one of the very few profitable pure play internet companies in the country.
+
+            <div className="trans" style={{ padding: "8rem", background: "#FFD029", fontFamily: "poppins", fontSize: "1.5rem" }}>
+
+                {/* <strong>Yesreal Technologies</strong> has an in-depth understanding of the Indian consumer internet domain. With years of experience in the domain, strong cash flow generation and a diversified business portfolio, it one of the very few profitable pure play internet companies in the country.
                 The company was incorporated on May 1, 1995 under the Companies Act, 1956 as Yesreal Technologies (India) Private Limited and became a public limited company on April 27, 2006. Starting with a classified recruitment online business, naukri.com, Yesreal Technologies has grown and diversified rapidly, setting benchmarks as a pioneer for others to follow. Driven by innovation, creativity, an experienced and talented leadership team and a strong culture of entrepreneurship, today, it is India’s premier online classifieds company in recruitment, matrimony, real estate, education and related services.
 
                 <br />
@@ -32,7 +33,11 @@ function Overview() {
                         
                     </div>
 
-               </div>
+               </div> */}
+
+
+                <strong style={{fontSize:"2rem", cursor:"pointer"}}>Yesreal Technologies private limited</strong> aims to provide tech tools to allow easier and more accessible methods of dealing with various aspects of a business. We specialise in recruitment and human resource analysis and branding . YRT have vast experience in dealing with the financial and HR aspect of recruitment and branding in various industries from education to information technology.
+
             </div>
 
 
