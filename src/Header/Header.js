@@ -54,8 +54,8 @@ function Header() {
 
 
     return (
-        <div  style={{borderBottom:"0.5px solid lightgray",paddingBottom:5}}>
-            <div className='container' style={{ padding: '0.3rem',margin:'1rem',marginLeft:'5rem' }}><br />
+        <div  style={{borderBottom:"0.5px solid lightgray",paddingBottom:5,textAlign:"center"}}>
+            <div  style={{ padding: '0.3rem',margin:'1rem',width:"98vw" }}><br />
             <span style={{float:'left',position:'fixed',padding:'0',margin:'0',margin:'0',left:'3rem',marginTop:'-1.8rem'}}>
                 <img src={logo} style={{height:'4rem',width:'4rem'}}/>
                 <img src={logoname} style={{height:'4rem',width:'10rem'}}/>

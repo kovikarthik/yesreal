@@ -121,7 +121,7 @@ function Homepage() {
               </Carousel.Caption>
             </Carousel.Item> */}
             <Carousel.Item interval={3000}>
-              <div className='row' style={{ background: "#4d888e", height: "87vh" }}>
+              <div className='row' style={{ background: "#4d888e", height: "87vh", width: "100vw" }}>
                 <div className='col'><br /><br /><br /><br />
                   <img
                     style={{ width: "68vw", height: '58vh' }}
@@ -171,16 +171,16 @@ function Homepage() {
 
             <Carousel.Item interval={3000}>
               <div className='row' style={{ height: "87vh" }}>
-                <div className='col ' style={{ padding: "12rem 4rem", }}>
-                  <NavLink className="navbarbtn1" style={{ textDecoration: 'none', fontWeight: 'bold' }} to="yesrealtechnologies/careers" ><h2 style={{ fontFamily: "Poppins", fontSize: "4rem", color: "rgba(0,109,184,255)" }}><strong>Investor Relationship</strong></h2></NavLink>
+                <div className='col-5 ' style={{ padding: "10rem 4rem", paddingRight: "0rem" }}>
+                  <NavLink className="navbarbtn1" style={{ textDecoration: 'none', fontWeight: 'bold' }} to="yesrealtechnologies/careers" ><h2 style={{ fontFamily: "Poppins", fontSize: "4rem", color: "rgba(0,109,184,255)" }}><strong>Investor Relationships</strong></h2></NavLink>
                   <h5>The most important quality for an investor<br /> is temperament, not intellect that YRT provides .</h5>
                 </div>
 
                 <div className='col' style={{ width: "30vw" }} >
                   <img
-                    style={{ height: '70vh', marginTop: "17vh" }}
+                    style={{ height: '80vh', width: "55vw", marginTop: "7vh" }}
 
-                    className="d-block w-100"
+
                     src={investment}
                     alt="First slide"
                   />
@@ -192,12 +192,14 @@ function Homepage() {
           </Carousel>
         </div>
 
-        <div className='row' style={{ margin: '4rem', padding: '0', marginBottom: '' }}>
-          <div className='col-6' style={{ margin: '0', padding: '0' }}>
-            <img src={bussinessact} style={{ width: '100%', height: '100%' }} />
+        <div className='row ' style={{ margin: '8rem 4rem', padding: '0', marginBottom: 0, paddingBottom: "8rem" }}>
+          <div className='col-6 shadow' style={{ margin: '0', padding: '0', background: "white", borderTopLeftRadius: "7px", borderBottomLeftRadius: "7px" }}>
+            <img src={bussinessact} style={{ width: '30vw', height: '60vh', borderTopLeftRadius: "7px" }} />
+
           </div>
-          <div className='col' style={{ backgroundColor: 'whitesmoke', margin: '0', padding: '0', textAlign: 'center', paddingTop: '3rem' }}><br></br><br></br>
-            <div className='' style={{ fontSize: '2rem' }}>Bussiness Activities</div>
+          <div className='col ' style={{ backgroundColor: 'whiteSmoke', margin: '0', padding: '0', textAlign: 'center', paddingTop: '3rem', borderTopRightRadius: "7px", borderBottomRightRadius: "7px" }}>
+            <br></br><br></br>
+            <div className='' style={{ fontSize: '2rem', fontFamily: "poppins", color: '#006db8' }}><strong>Bussiness Activities</strong></div>
             <div className='' style={{ margin: '1.5rem', fontSize: '1.2rem' }}>In order to provide clients with specialised solutions, YRT has developed expertise in the following industry segments:</div>
             <br></br>
             <Carousel variant="dark" style={{ overflow: 'hidden' }} >
@@ -209,73 +211,14 @@ function Homepage() {
               </Carousel.Item>
               <Carousel.Item interval={1000}>
                 <FontAwesomeIcon style={{ color: 'rgba(0,109,184,255)' }} className='icon' icon={faLightbulb} />&nbsp;
-                &nbsp; <span style={{ fontWeight: 'bold' }}>ADVISORS</span>
+                &nbsp; <span style={{ fontWeight: 'bold' }}>PRODUCT DEVELOPMENT</span>
 
-                <div className='row ' style={{ margin: '8rem 4rem', padding: '0', marginBottom: 0, paddingBottom: "8rem" }}>
-                  <div className='col-6 shadow' style={{ margin: '0', padding: '0', background: "white", borderTopLeftRadius: "7px", borderBottomLeftRadius: "7px" }}>
-                    <img src={bussinessact} style={{ width: '30vw', height: '60vh', borderTopLeftRadius: "7px" }} />
-
-                  </div>
-                  <div className='col ' style={{ backgroundColor: 'whiteSmoke', margin: '0', padding: '0', textAlign: 'center', paddingTop: '3rem', borderTopRightRadius: "7px", borderBottomRightRadius: "7px" }}>
-                    <br></br><br></br>
-                    <div className='' style={{ fontSize: '2rem', fontFamily: "poppins", color: '#006db8' }}><strong>Bussiness Activities</strong></div>
-                    <div className='' style={{ margin: '1.5rem', fontSize: '1.2rem' }}>In order to provide clients with specialised solutions, YRT has developed expertise in the following industry segments:</div>
-                    <br></br>
-                    <Carousel variant="dark" style={{ overflow: 'hidden' }} >
-                      <Carousel.Item interval={1000}>
-                        {/* <Carousel.Caption> */}
-                        <FontAwesomeIcon style={{ color: 'rgba(0,109,184,255)' }} className='icon' icon={faPersonWalking} />&nbsp;
-                        &nbsp; <span style={{ fontWeight: 'bold' }}>RECRUITMENT</span>
-                        {/* </Carousel.Caption> */}
-                      </Carousel.Item>
-                      <Carousel.Item interval={1000}>
-                        <FontAwesomeIcon style={{ color: 'rgba(0,109,184,255)' }} className='icon' icon={faLightbulb} />&nbsp;
-                        &nbsp; <span style={{ fontWeight: 'bold' }}>ADVISORS</span>
-
-                        {/* <Carousel.Caption> */}
-                        {/* </Carousel.Caption> */}
-                      </Carousel.Item>
-                    </Carousel><br></br><br></br>
-                    <NavLink className='btn btn-info' style={{ boxShadow: 'none' }} to="yesrealtechnologies/business" >All Bussiness Activities</NavLink>
-                  </div><br></br><br></br>
-                </div>
+                {/* <Carousel.Caption> */}
+                {/* </Carousel.Caption> */}
               </Carousel.Item>
-            </Carousel>
-            {/* <div style={{backgroundImage:`url(${testimonial})`,backgroundRepeat: 'no-repeat',backgroundSize:'100% 100%',alignItems:'center',justifyContent:'center'}}> */}
-            {/* <div style={{ backgroundColor: '#000', color: 'white', backgroundSize: '100% 100%', alignItems: 'center', justifyContent: 'center' }}>
-        <br></br><br></br><span style={{ paddingTop: '2rem', fontWeight: 'bold', fontSize: '2rem' }}>Client Testimonials</span><br></br><br></br>
-        <Carousel variant="dark" style={{ overflow: 'hidden' }} >
-          <Carousel.Item interval={5000}>
-            &nbsp; <span style={{ fontWeight: 'bold' }}>"YRT has one of the most astonishing team of seasoned professionals who have the distinct ability to surpass client expectations, each time.
-              <br></br>Their expertise, industry relationships and long term vision has propelled them as one of the best in the business."
-
-              <br></br> -Mike | Vice President | South Asia Discovery Networks Asia Pacific</span>
-          </Carousel.Item>
-          <Carousel.Item interval={5000} >
-            &nbsp; <span style={{ fontWeight: 'bold' }}>"YRT has one of the most astonishing team of seasoned professionals who have the distinct ability to surpass client expectations, each time.
-              <br></br>Their expertise, industry relationships and long term vision has propelled them as one of the best in the business."
-
-              <br></br> -Charlee  | Vice President | South Asia Discovery Networks Asia Pacific</span>
-
-          </Carousel.Item>
-          <Carousel.Item interval={5000}>
-            &nbsp; <span style={{ fontWeight: 'bold' }}>"YRT has one of the most astonishing team of seasoned professionals who have the distinct ability to surpass client expectations, each time.
-              <br></br>Their expertise, industry relationships and long term vision has propelled them as one of the best in the business."
-
-              <br></br> -Lueise  | Vice President | South Asia Discovery Networks Asia Pacific</span>
-          </Carousel.Item>
-          <Carousel.Item interval={5000}>
-            &nbsp; <span style={{ fontWeight: 'bold' }}>"YRT has one of the most astonishing team of seasoned professionals who have the distinct ability to surpass client expectations, each time.
-              <br></br>Their expertise, industry relationships and long term vision has propelled them as one of the best in the business."
-
-              <br></br> -Frances | Vice President | South Asia Discovery Networks Asia Pacific</span>
-          </Carousel.Item>
-        </Carousel><br></br><br></br>
-        </div> */}
-
-
-
-          </div>
+            </Carousel><br></br><br></br>
+            <NavLink className='btn btn-primary' style={{ boxShadow: 'none', backgroundColor: '#006db8' }} to="yesrealtechnologies/business" >All Bussiness Activities</NavLink>
+          </div><br></br><br></br>
         </div>
       </div>
     </>
