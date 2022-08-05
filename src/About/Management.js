@@ -1,19 +1,36 @@
 import React from 'react'
 import './About.css'
-import image from '../assets/directorsmale.png'
+import image from '../assets/teamwork.gif'
 
 function Management() {
     return (
-        <div style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem', backgroundColor: 'whiteSmoke' }}>
+        <div style={{ textAlign: "left", paddingTop: '0rem', }}>
 
 
 
-            <br />
-            <div style={{ textAlign: 'center' }}>
-                <h3 style={{ fontFamily: 'Quicksand' }}>MANAGEMENT  TEAM </h3>
+          
+            <div style={{ textAlign: 'center', color: '#006db8' ,background:'whiteSmoke'}}>  <br />
+                <h3 style={{ fontFamily: 'Quicksand' }}>MANAGEMENT  TEAM </h3><br/>
             </div>
 
-            <br />
+
+
+
+
+            <div className='row' style={{ margin: 0 }}>
+
+                <div className='col' >
+                    <div style={{ marginLeft: "4rem" }}>
+                        <h1 style={{ fontFamily: "Quicksand" }}><br /><br /> <br />   <br />Sorry , it's under developement !</h1>
+                        <span>&nbsp;&nbsp;Our team is working hard to complete this page , Please wait . </span>
+                    </div>
+                    <br /><br />
+                </div>
+                <div className='col'>
+                    <img src={image} />
+                </div>
+            </div>
+            {/* <br />
             <div className="row" style={{ margin: "0rem 8rem" }}>
                 <div className="col card  m-2 shadow" style={{ padding: "4rem", borderTop: "10px double #006db8", borderRight: "10px solid #006db8" }}>
                     <div style={{ display: "flex" }}>
@@ -73,7 +90,7 @@ function Management() {
                 </div>
 
 
-            </div>
+            </div> */}
             {/* <div className="row">
                 <div className="col card border-0 m-2 p-4 shadow">
                     <span className="row">

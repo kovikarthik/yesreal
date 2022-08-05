@@ -11,7 +11,7 @@ function Vision() {
 
 
            <div style={{textAlign:'center'}}>
-             <h3 style={{fontFamily: 'Quicksand'}}>VISION & MISSION </h3>
+             <h3 style={{fontFamily: 'Quicksand',color:'#006db8'}}>VISION & MISSION </h3>
            </div>
 <br/>
 <div style={{marginLeft:"4rem"}}>
