@@ -3,10 +3,11 @@ import vision from '../assets/vision.jpg'
 import mission from '../assets/mission.gif'
 import dinesh from '../assets/dineshsir.jpg'
 import './About.css'
+import ScrollTop from '../ScrollTop'
 function Vision() {
     return (
-        <div style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem' }}>
-                
+        <div id='top' style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem' }}>
+                   <ScrollTop/>   
 <br/>
 
 

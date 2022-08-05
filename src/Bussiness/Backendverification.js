@@ -1,9 +1,11 @@
 import React from 'react'
+import ScrollTop from '../ScrollTop'
 
 export default function Backendverification() {
   return (
     <>
-    <div style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem' }}>
+    <div id='top' style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem' }}>
+    <ScrollTop/>
       <br />
       <h4>YRT - TRUSTED EMPLOYEE BACKGROUND VERIFICATION COMPANY</h4><hr />
 

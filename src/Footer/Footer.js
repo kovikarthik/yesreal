@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import { NavLink } from 'react-router-dom'
+import ScrollTop from '../ScrollTop';
 
 export default function Footer() {
   const openwebpage = url => {
@@ -10,22 +11,22 @@ export default function Footer() {
     <>
       <div className='footercontent ' style={{ width: '100%', margin: '0', padding: '1rem', backgroundColor: 'rgba(0,109,184,255)', color: 'white', bottom: '0', boxShadow: 'rgba(99, 99, 99, 0.2) 8px 0px 8px 0px' }}>
         <div className='row scrcenter' >
-          <NavLink className="col-2 navbarbtn1" style={{ color: 'white', fontSize: "1.5rem" }} to="/yesrealtechnologies/business/" >Business</NavLink>
-          <NavLink className="col-2 navbarbtn1" style={{ color: 'white', fontSize: "1.5rem" }} to="/yesrealtechnologies/careers/" >Careers</NavLink>
-          <NavLink className="col-2 navbarbtn1" style={{ color: 'white', fontSize: "1.5rem" }} to="/yesrealtechnologies/about/" >About</NavLink>
-          <NavLink className="col-2 navbarbtn1" style={{ color: 'white', fontSize: "1.5rem" }} to="/yesrealtechnologies/investor/" >Investor Relations</NavLink>
-          {/* <NavLink className="col-2 navbarbtn1" style={{ color: 'white', fontSize: "1.5rem" }} to="/yesrealtechnologies/security/" >Security & Privacy</NavLink> */}
-          <NavLink className="col-2 navbarbtn1" style={{ color: 'white', fontSize: "1.5rem" }} to="/yesrealtechnologies/contact/" >Contact</NavLink>
+          <NavLink smooth={true} duration={1000} className="col-2 navbarbtn1" style={{ color: 'white', fontSize: "1.5rem" }} to="/yesrealtechnologies/business/" >Business</NavLink>
+          <NavLink smooth={true} duration={1000} className="col-2 navbarbtn1" style={{ color: 'white', fontSize: "1.5rem" }} to="/yesrealtechnologies/careers/" >Careers</NavLink>
+          <NavLink smooth={true} duration={1000} className="col-2 navbarbtn1" style={{ color: 'white', fontSize: "1.5rem" }} to="/yesrealtechnologies/about/" >About</NavLink>
+          <NavLink smooth={true} duration={1000} className="col-2 navbarbtn1" style={{ color: 'white', fontSize: "1.5rem" }} to="/yesrealtechnologies/investor/" >Investor Relations</NavLink>
+          {/* <NavLink smooth={true} duration={1000} className="col-2 navbarbtn1" style={{ color: 'white', fontSize: "1.5rem" }} to="/yesrealtechnologies/security/" >Security & Privacy</NavLink> */}
+          <NavLink smooth={true} duration={1000} className="col-2 navbarbtn1" style={{ color: 'white', fontSize: "1.5rem" }} to="/yesrealtechnologies/contact/" >Contact</NavLink>
         </div>
         <div className='row scrcenter' >
           <div className="col-2 " style={{ paddingLeft: '0.5rem' }}>
-            <NavLink className="col-2 navbarbtn1" style={{ fontWeight: 'normal', textDecoration: 'none' }} to="/yesrealtechnologies/business/" >Overview</NavLink><br></br>
-            <NavLink className="col-2 navbarbtn1" style={{ fontWeight: 'normal', textDecoration: 'none' }} to="/yesrealtechnologies/business/recruitment/" >Recruitment</NavLink><br></br>
-            <NavLink className="col-2 navbarbtn1" style={{ fontWeight: 'normal', textDecoration: 'none' }} to="/yesrealtechnologies/business/digitalmarketing/" >Digitalmarketing</NavLink><br></br>
+            <NavLink smooth={true} duration={1000} className="col-2 navbarbtn1" style={{ fontWeight: 'normal', textDecoration: 'none' }} to="/yesrealtechnologies/business/" >Overview</NavLink><br></br>
+            <NavLink smooth={true} duration={1000} className="col-2 navbarbtn1" style={{ fontWeight: 'normal', textDecoration: 'none' }} to="/yesrealtechnologies/business/recruitment/" >Recruitment</NavLink><br></br>
+            <NavLink smooth={true} duration={1000} className="col-2 navbarbtn1" style={{ fontWeight: 'normal', textDecoration: 'none' }} to="/yesrealtechnologies/business/digitalmarketing/" >Digitalmarketing</NavLink><br></br>
 
-            <NavLink className="col-2 navbarbtn1" style={{ fontWeight: 'normal', textDecoration: 'none' }} to="/yesrealtechnologies/business/backendverification/" >Backend verification</NavLink><br></br>
-            <NavLink className="col-2 navbarbtn1" style={{ fontWeight: 'normal', textDecoration: 'none' }} to="/yesrealtechnologies/business/productdevelopment/" >Product development</NavLink><br></br>
-            <NavLink className="col-2 navbarbtn1" style={{ fontWeight: 'normal', textDecoration: 'none' }} to="/yesrealtechnologies/business/sass/" >Saas</NavLink><br></br>
+            <NavLink smooth={true} duration={1000} className="col-2 navbarbtn1" style={{ fontWeight: 'normal', textDecoration: 'none' }} to="/yesrealtechnologies/business/backendverification/" >Backend verification</NavLink><br></br>
+            <NavLink smooth={true} duration={1000} className="col-2 navbarbtn1" style={{ fontWeight: 'normal', textDecoration: 'none' }} to="/yesrealtechnologies/business/productdevelopment/" >Product development</NavLink><br></br>
+            <NavLink smooth={true} duration={1000} className="col-2 navbarbtn1" style={{ fontWeight: 'normal', textDecoration: 'none' }} to="/yesrealtechnologies/business/sass/" >Saas</NavLink><br></br>
           </div>
           <div className="col-2 " >
 

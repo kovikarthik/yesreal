@@ -1,10 +1,10 @@
 import React from 'react'
+import ScrollTop from '../ScrollTop'
 import './About.css'
 function Overview() {
     return (
-        <div style={{ textAlign: "left", }}>
-
-
+        <div id='top' style={{ textAlign: "left", }}>
+                  <ScrollTop/>
             <div style={{ textAlign: 'center', padding: "1rem",background:"whiteSmoke" }} >
                 <h3 style={{ fontFamily: 'Quicksand' ,color:'#006db8'}}>ABOUT US</h3>
             </div>

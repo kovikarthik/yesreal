@@ -1,9 +1,11 @@
 import React from 'react'
 import image from '../assets/project.gif'
+import ScrollTop from '../ScrollTop'
 import './About.css'
 function Projects() {
     return (
-        <div style={{ background: "whiteSmoke" }}><br />
+        <div id='top' style={{ background: "whiteSmoke" }}><br />
+              <ScrollTop/>
             <br />
             <div style={{ textAlign: 'center', color: 'rgba(0,109,184,255)' }}>
                 <h3 style={{ fontFamily: 'Quicksand', marginRight: "50px" }}>MILESTONES </h3>

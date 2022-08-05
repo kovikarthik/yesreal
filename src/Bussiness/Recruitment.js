@@ -1,9 +1,11 @@
 import React from 'react'
+import ScrollTop from '../ScrollTop'
 
 function Recruitment() {
   return (
     <>
-    <div style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem' }}>
+    <div id='top' style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem' }}>
+    <ScrollTop/>
       <br />
       <h4>Recruitment</h4><hr />
 

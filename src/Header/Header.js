@@ -5,6 +5,7 @@ import '../Mainpage.css'
 import './Header.css'
 import '../Dropdown.css'
 import logoname from '../assets/logo.png'
+import ScrollTop from '../ScrollTop'
 function Header() {
 
     let [state,setState]=useState(-1)
@@ -55,11 +56,11 @@ function Header() {
     return (
         <div  style={{borderBottom:"0.5px solid lightgray",paddingBottom:5}}>
             <div className='container' style={{ padding: '0.3rem',margin:'1rem',marginLeft:'5rem' }}><br />
-            <span style={{float:'left',padding:'0',margin:'0',marginTop:'-1.8rem'}}>
+            <span style={{float:'left',position:'fixed',padding:'0',margin:'0',margin:'0',left:'3rem',marginTop:'-1.8rem'}}>
                 <img src={logo} style={{height:'4rem',width:'4rem'}}/>
                 <img src={logoname} style={{height:'4rem',width:'10rem'}}/>
             </span>
-               <span >
+               <span style={{margin:"0",padding:'0'}}>
                     {headercontent.map((h,i) => {
                         return (                  
 <span>

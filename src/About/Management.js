@@ -1,11 +1,12 @@
 import React from 'react'
 import './About.css'
 import image from '../assets/teamwork.gif'
+import ScrollTop from '../ScrollTop'
 
 function Management() {
     return (
-        <div style={{ textAlign: "left", paddingTop: '0rem', }}>
-
+        <div id='top' style={{ textAlign: "left", paddingTop: '0rem', }}>
+                  <ScrollTop/>
 
 
           

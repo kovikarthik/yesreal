@@ -3,6 +3,7 @@ import './Bussiness.css'
 import image from '../assets/directorsmale.png'
 import dinesh from '../assets/dineshsir.jpg'
 import '../About/About.css'
+import ScrollTop from '../ScrollTop'
 
 export default function Advisors() {
     return (
@@ -26,7 +27,8 @@ export default function Advisors() {
         
       </div><br></br>
    </div> */}
-            <div style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem' }}>
+            <div id='top' style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem' }}>
+            <ScrollTop/>
                 <br />
                 <div style={{ textAlign: 'center' }}>
                     <h3 style={{ fontFamily: 'Quicksand' }}>Advisors</h3>

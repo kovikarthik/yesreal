@@ -1,12 +1,14 @@
 import React from 'react'
 import './Bussiness.css'
 import saas from '../assets/saas.png'
+import ScrollTop from '../ScrollTop'
 
 export default function Sass() {
   const sasimg='//azurecomcdn.azureedge.net/cvt-3f057ebb0edf14bbfcd43b4e569fa7e2568236ce1d889f278f40b27bbd8ff476/images/page/resources/cloud-computing-dictionary/what-is-saas/what-is-saas.png'
   return (
     <>
-    <div style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem' }}>
+    <div id='top' style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem' }}>
+    <ScrollTop/>
       <br />
       <h4>Software as a service</h4><hr />
 

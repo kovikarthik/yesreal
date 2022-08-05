@@ -2,10 +2,11 @@ import React from 'react'
 import image from '../assets/directorsmale.png'
 import dinesh from '../assets/dineshsir.jpg'
 import './About.css'
+import ScrollTop from '../ScrollTop'
 function Directors() {
     return (
-        <div style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem', backgroundColor: 'whiteSmoke', height: '89vh' }}>
-
+        <div id='top' style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem', backgroundColor: 'whiteSmoke', height: '89vh' }}>
+                  <ScrollTop/>
             <br />
             <br />
             <div style={{ textAlign: 'center' }}>

@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import ScrollTop from '../ScrollTop.js'
+
 
 function Overview() {
+
   return (
-    <div style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem' }}>
+    <div id='top' style={{ textAlign: "left", padding: '2rem', paddingTop: '0rem' }}>
+      <ScrollTop/>
       <br />
       <h4>Business</h4><hr />
 

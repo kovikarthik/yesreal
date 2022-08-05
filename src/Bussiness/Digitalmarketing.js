@@ -1,9 +1,11 @@
 import React from 'react'
 import image from '../assets/teamwork.gif'
+import ScrollTop from '../ScrollTop'
 
 function Digitalmarketing() {
     return (
-        <div>   
+        <div id='top'>   
+                  <ScrollTop/>
         <div style={{ textAlign: 'center', color: '#006db8' ,background:'whiteSmoke'}}>  <br />
                 <h3 style={{ fontFamily: 'Quicksand' }}>DIGITAL MARKETING </h3><br/>
             </div>
