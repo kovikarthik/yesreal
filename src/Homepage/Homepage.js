@@ -3,11 +3,11 @@ import { NavLink } from 'react-router-dom'
 import './Homepage.css'
 import Carousel from 'react-bootstrap/Carousel';
 import career from '../assets/career.jpg'
-import bussiness from '../assets/bussiness.jpg'
-import investment from '../assets/investment.png'
+import bussiness from '../assets/business.gif'
+import investment from '../assets/investment.gif'
 import about from '../assets/about.jpg'
 import hometop from '../assets/hometop.png'
-import bussinessact from '../assets/bussinessact.jpg' 
+import bussinessact from '../assets/bussinessact.gif'
 import testimonial from '../assets/testimonial.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../About/About.css'
@@ -100,14 +100,15 @@ function Homepage() {
       {/* <div>
           <img src={hometop} style={{width:'100%',height:'100%'}}/>
       </div> */}
-      <div className="homeaboutus" id='top'>
-        {/* <div> */}      <ScrollTop/>
-        <div style={{ padding: "6rem", paddingTop: "3.5rem", paddingLeft: "17vw", paddingBottom: "0" }} >
-          <Carousel style={{ width: "68vw" ,height:'60vh'}} className="card shadow">
+      <div className="homeaboutus" id="top">
+        {/* <div> */}<ScrollTop />
+
+        <div style={{ paddingBottom: "0" }} >
+          <Carousel style={{ height: "87vh" }} className="card shadow">
             {/* <Carousel > */}
-            <Carousel.Item interval={3000} >
+            {/* <Carousel.Item interval={3000} >
               <img
-                style={{ width: "68vw", height: '60vh' }} 
+                style={{ width: "68vw", height: '89vh' }}
                 className="d-block w-100"
                 src={about}
                 alt="Third slide"
@@ -118,98 +119,130 @@ function Homepage() {
                   You get recessions, you have stock market declines. If you don't understand that's going to happen, then you're not ready, you won't do well in the markets.
                 </h5>
               </Carousel.Caption>
+            </Carousel.Item> */}
+            <Carousel.Item interval={3000}>
+              <div className='row' style={{ background: "#4d888e", height: "87vh" }}>
+                <div className='col'><br /><br /><br /><br />
+                  <img
+                    style={{ width: "68vw", height: '58vh' }}
+
+                    className="d-block w-100"
+                    src={career}
+                    alt="First slide"
+                  />
+                </div>
+                <div className='col shadow' style={{ padding: "12rem 4rem", borderTopLeftRadius: "50%", }}>
+                  <NavLink className="navbarbtn1" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }} to="yesrealtechnologies/careers" ><h2 style={{ fontFamily: "Poppins", color: "white", fontSize: "4rem" }}><strong>Career</strong></h2></NavLink>
+                  <h5 style={{ color: "white" }}>With a good perspective on history, we can have a better <br />understanding of the past and present, and thus a clear vision of the future</h5>
+                </div>
+              </div>
+
+              {/* <Carousel.Caption>
+              
+              </Carousel.Caption> */}
             </Carousel.Item>
             <Carousel.Item interval={3000}>
-              <img
-                style={{ width: "68vw", height: '60vh' }}
+              <div className="row">
 
-                className="d-block w-100"
-                src={career}
-                alt="First slide"
-              />
-              <Carousel.Caption>
-                <NavLink className="navbarbtn1" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }} to="yesrealtechnologies/careers" ><h2>CAREER</h2></NavLink>
-                <h5>With a good perspective on history, we can have a better understanding of the past and present, and thus a clear vision of the future</h5>
-              </Carousel.Caption>
+                <div className='col ' style={{ padding: "12rem 4rem", background: "whiteSmoke", borderTopRightRadius: "60%", }}>
+                  <br />
+                  <NavLink className="navbarbtn1" style={{ textDecoration: 'none' }} to="/yesrealtechnologies/business/" > <h1 style={{ fontFamily: "Poppins", color: "#1b1c1e", fontSize: "4rem" }}><strong>Bussiness</strong></h1></NavLink><br />
+                  <h5 >Ahead of competition in an ever-changing volatile market, the company’s recent focus has been to develop new things</h5></div>
+
+                <div className='col'>
+                  <img
+                    style={{ width: "68vw", height: '86vh' }}
+
+                    className="d-block w-100"
+                    src={bussiness}
+                    alt="Second slide"
+                  />
+                </div>
+              </div>
+
+
             </Carousel.Item>
+
+
+
+
+
+
+
             <Carousel.Item interval={3000}>
-              <img
-                style={{ width: "68vw", height: '60vh' }}
+              <div className='row' style={{ height: "87vh" }}>
+                <div className='col ' style={{ padding: "12rem 4rem", }}>
+                  <NavLink className="navbarbtn1" style={{ textDecoration: 'none', fontWeight: 'bold' }} to="yesrealtechnologies/careers" ><h2 style={{ fontFamily: "Poppins", fontSize: "4rem", color: "rgba(0,109,184,255)" }}><strong>Investor Relationship</strong></h2></NavLink>
+                  <h5>The most important quality for an investor<br /> is temperament, not intellect that YRT provides .</h5>
+                </div>
 
-                className="d-block w-100"
-                src={bussiness}
-                alt="Second slide"
-              />
-              <Carousel.Caption>
+                <div className='col' style={{ width: "30vw" }} >
+                  <img
+                    style={{ height: '70vh', marginTop: "17vh" }}
 
-                <NavLink className="navbarbtn1" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }} to="yesrealtechnologies/business" > <h2>BUSSINESS</h2></NavLink>
+                    className="d-block w-100"
+                    src={investment}
+                    alt="First slide"
+                  />
+                </div>
 
-                <h5>Ahead of competition in an ever-changing volatile market, the company’s recent focus has been to develop new things</h5>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item interval={3000}>
-              <img
-                className="d-block w-100"
-                style={{ width: "68vw", height: '60vh' }} 
-
-                src={investment}
-                alt="Third slide"
-              />
-              <Carousel.Caption>
-
-                <NavLink className="navbarbtn1" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }} to="yesrealtechnologies/investor" > <h2 >INVESTOR RELATIONSHIP</h2></NavLink>
-
-                <h5>
-                  The most important quality for an investor is temperament, not intellect that YRT provides
-                </h5>
-              </Carousel.Caption>
+              </div>
             </Carousel.Item>
 
           </Carousel>
         </div>
-      
-    <div className='row'  style={{margin:'4rem',padding:'0',marginBottom:''}}>
-      <div className='col-6' style={{margin:'0',padding:'0'}}>
-        <img src={bussinessact} style={{width:'100%',height:'100%'}}/>
-      </div>
-        <div className='col' style={{ backgroundColor: 'whitesmoke', margin: '0', padding: '0', textAlign: 'center', paddingTop: '3rem' }}><br></br><br></br>
-          <div className='' style={{ fontSize: '2rem' }}>Bussiness Activities</div>
-          <div className='' style={{ margin: '1.5rem', fontSize: '1.2rem' }}>In order to provide clients with specialised solutions, YRT has developed expertise in the following industry segments:</div>
-          <br></br>
-          <Carousel variant="dark" style={{ overflow: 'hidden' }} >
-            <Carousel.Item interval={1000}>
-              {/* <Carousel.Caption> */}
-              <FontAwesomeIcon style={{ color: 'rgba(0,109,184,255)' }} className='icon' icon={faPersonWalking} />&nbsp;
-              &nbsp; <span style={{ fontWeight: 'bold' }}>RECRUITMENT</span>
-              {/* </Carousel.Caption> */}
-            </Carousel.Item>
-            <Carousel.Item interval={1000}>
-              <FontAwesomeIcon style={{ color: 'rgba(0,109,184,255)' }} className='icon' icon={faLightbulb} />&nbsp;
-              &nbsp; <span style={{ fontWeight: 'bold' }}>ADVISORS</span>
 
-              {/* <Carousel.Caption> */}
-              {/* </Carousel.Caption> */}
-            </Carousel.Item>
-            <Carousel.Item interval={1000}>
-              <FontAwesomeIcon style={{ color: 'rgba(0,109,184,255)' }} className='icon' icon={faCheckCircle} />&nbsp;
-              &nbsp; <span style={{ fontWeight: 'bold' }}>BACKEND VERIFICATION</span>
+        <div className='row' style={{ margin: '4rem', padding: '0', marginBottom: '' }}>
+          <div className='col-6' style={{ margin: '0', padding: '0' }}>
+            <img src={bussinessact} style={{ width: '100%', height: '100%' }} />
+          </div>
+          <div className='col' style={{ backgroundColor: 'whitesmoke', margin: '0', padding: '0', textAlign: 'center', paddingTop: '3rem' }}><br></br><br></br>
+            <div className='' style={{ fontSize: '2rem' }}>Bussiness Activities</div>
+            <div className='' style={{ margin: '1.5rem', fontSize: '1.2rem' }}>In order to provide clients with specialised solutions, YRT has developed expertise in the following industry segments:</div>
+            <br></br>
+            <Carousel variant="dark" style={{ overflow: 'hidden' }} >
+              <Carousel.Item interval={1000}>
+                {/* <Carousel.Caption> */}
+                <FontAwesomeIcon style={{ color: 'rgba(0,109,184,255)' }} className='icon' icon={faPersonWalking} />&nbsp;
+                &nbsp; <span style={{ fontWeight: 'bold' }}>RECRUITMENT</span>
+                {/* </Carousel.Caption> */}
+              </Carousel.Item>
+              <Carousel.Item interval={1000}>
+                <FontAwesomeIcon style={{ color: 'rgba(0,109,184,255)' }} className='icon' icon={faLightbulb} />&nbsp;
+                &nbsp; <span style={{ fontWeight: 'bold' }}>ADVISORS</span>
 
-              {/* <Carousel.Caption> */}
-              {/* </Carousel.Caption> */}
-            </Carousel.Item>
-            <Carousel.Item interval={1000}>
-              <FontAwesomeIcon style={{ color: 'rgba(0,109,184,255)' }} className='icon' icon={faServer} />&nbsp;
-              &nbsp; <span style={{ fontWeight: 'bold' }}>SAAS</span>
+                <div className='row ' style={{ margin: '8rem 4rem', padding: '0', marginBottom: 0, paddingBottom: "8rem" }}>
+                  <div className='col-6 shadow' style={{ margin: '0', padding: '0', background: "white", borderTopLeftRadius: "7px", borderBottomLeftRadius: "7px" }}>
+                    <img src={bussinessact} style={{ width: '30vw', height: '60vh', borderTopLeftRadius: "7px" }} />
 
-              {/* <Carousel.Caption> */}
-              {/* </Carousel.Caption> */}
-            </Carousel.Item>
-          </Carousel><br></br><br></br>
-          <NavLink className='btn btn-info' style={{ boxShadow: 'none' }} to="yesrealtechnologies/business" >All Bussiness Activities</NavLink>
-        </div><br></br><br></br>
-    </div>
-      {/* <div style={{backgroundImage:`url(${testimonial})`,backgroundRepeat: 'no-repeat',backgroundSize:'100% 100%',alignItems:'center',justifyContent:'center'}}> */}
-      {/* <div style={{ backgroundColor: '#000', color: 'white', backgroundSize: '100% 100%', alignItems: 'center', justifyContent: 'center' }}>
+                  </div>
+                  <div className='col ' style={{ backgroundColor: 'whiteSmoke', margin: '0', padding: '0', textAlign: 'center', paddingTop: '3rem', borderTopRightRadius: "7px", borderBottomRightRadius: "7px" }}>
+                    <br></br><br></br>
+                    <div className='' style={{ fontSize: '2rem', fontFamily: "poppins", color: '#006db8' }}><strong>Bussiness Activities</strong></div>
+                    <div className='' style={{ margin: '1.5rem', fontSize: '1.2rem' }}>In order to provide clients with specialised solutions, YRT has developed expertise in the following industry segments:</div>
+                    <br></br>
+                    <Carousel variant="dark" style={{ overflow: 'hidden' }} >
+                      <Carousel.Item interval={1000}>
+                        {/* <Carousel.Caption> */}
+                        <FontAwesomeIcon style={{ color: 'rgba(0,109,184,255)' }} className='icon' icon={faPersonWalking} />&nbsp;
+                        &nbsp; <span style={{ fontWeight: 'bold' }}>RECRUITMENT</span>
+                        {/* </Carousel.Caption> */}
+                      </Carousel.Item>
+                      <Carousel.Item interval={1000}>
+                        <FontAwesomeIcon style={{ color: 'rgba(0,109,184,255)' }} className='icon' icon={faLightbulb} />&nbsp;
+                        &nbsp; <span style={{ fontWeight: 'bold' }}>ADVISORS</span>
+
+                        {/* <Carousel.Caption> */}
+                        {/* </Carousel.Caption> */}
+                      </Carousel.Item>
+                    </Carousel><br></br><br></br>
+                    <NavLink className='btn btn-info' style={{ boxShadow: 'none' }} to="yesrealtechnologies/business" >All Bussiness Activities</NavLink>
+                  </div><br></br><br></br>
+                </div>
+              </Carousel.Item>
+            </Carousel>
+            {/* <div style={{backgroundImage:`url(${testimonial})`,backgroundRepeat: 'no-repeat',backgroundSize:'100% 100%',alignItems:'center',justifyContent:'center'}}> */}
+            {/* <div style={{ backgroundColor: '#000', color: 'white', backgroundSize: '100% 100%', alignItems: 'center', justifyContent: 'center' }}>
         <br></br><br></br><span style={{ paddingTop: '2rem', fontWeight: 'bold', fontSize: '2rem' }}>Client Testimonials</span><br></br><br></br>
         <Carousel variant="dark" style={{ overflow: 'hidden' }} >
           <Carousel.Item interval={5000}>
@@ -239,6 +272,11 @@ function Homepage() {
           </Carousel.Item>
         </Carousel><br></br><br></br>
         </div> */}
+
+
+
+          </div>
+        </div>
       </div>
     </>
   )
