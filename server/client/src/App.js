@@ -22,7 +22,12 @@ import Backendverification from './Bussiness/Backendverification';
 import Sass from './Bussiness/Sass';
 import Projects from './About/Projects';
 import Digitalmarketing from './Bussiness/Digitalmarketing'
+import {useEffect} from 'react'
 function App() {
+
+
+ 
+
   return (
     <div className="App">
 
